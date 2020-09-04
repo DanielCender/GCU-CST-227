@@ -1,0 +1,13 @@
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarShopGUI\CarShopGUI\bin\Debug\CarShopGUI.exe.config
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarShopGUI\CarShopGUI\bin\Debug\CarShopGUI.exe
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarShopGUI\CarShopGUI\bin\Debug\CarShopGUI.pdb
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarShopGUI\CarShopGUI\bin\Debug\CarClassLibrary.dll
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarShopGUI\CarShopGUI\bin\Debug\CarClassLibrary.pdb
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.Form1.resources
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.Properties.Resources.resources
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.csproj.GenerateResource.cache
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.csproj.CopyComplete
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.exe
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.pdb

@@ -1,0 +1,26 @@
+﻿<Properties>
+  <MonoDevelop.Ide.ItemProperties.CarClassLibrary FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CarClassLibrary/Store.cs">
+    <Files>
+      <File FileName="CarClassLibrary/CarClassLibrary.cs" Line="11" Column="10" />
+      <File FileName="CarClassLibrary/Store.cs" Line="6" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CarClassLibrary" expanded="True">
+            <Node name="CarClassLibrary" expanded="True">
+              <Node name="Store.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
