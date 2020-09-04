@@ -1,0 +1,12 @@
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk1/CarClassLibrary/CarClassLibrary/bin/Debug/CarClassLibrary.dll
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk1/CarClassLibrary/CarClassLibrary/bin/Debug/CarClassLibrary.pdb
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk1/CarClassLibrary/CarClassLibrary/obj/Debug/CarClassLibrary.csprojAssemblyReference.cache
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk1/CarClassLibrary/CarClassLibrary/obj/Debug/CarClassLibrary.csproj.CoreCompileInputs.cache
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk1/CarClassLibrary/CarClassLibrary/obj/Debug/CarClassLibrary.dll
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk1/CarClassLibrary/CarClassLibrary/obj/Debug/CarClassLibrary.pdb
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarClassLibrary\CarClassLibrary\obj\Debug\CarClassLibrary.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarClassLibrary\CarClassLibrary\obj\Debug\CarClassLibrary.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarClassLibrary\CarClassLibrary\bin\Debug\CarClassLibrary.dll
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarClassLibrary\CarClassLibrary\bin\Debug\CarClassLibrary.pdb
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarClassLibrary\CarClassLibrary\obj\Debug\CarClassLibrary.dll
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk1\CarClassLibrary\CarClassLibrary\obj\Debug\CarClassLibrary.pdb
