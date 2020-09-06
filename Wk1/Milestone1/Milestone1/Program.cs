@@ -9,10 +9,12 @@ namespace Milestone1
         public static void Main(string[] args)
         {
             int response = 1;
-            Console.Out.WriteLine("Welcome to Minesweeper!\nPlease enter the desired size of the grid: ");
+            Console.Out.WriteLine("Welcome to Minesweeper!");
             while (response != 0)
             {
+                Console.Out.WriteLine("Please enter the desired size of the grid: ");
                 int size = getIntInput();
+                if (size == -1) continue; // check for invalid input
                 board = new Board(size);
 
                 // Play game
@@ -30,7 +32,8 @@ namespace Milestone1
             }
             else
             {
-                Console.Out.WriteLine(string.Format("The input must be an integer. The value you entered, ${0}, was invalid.", choice));
+                Console.Out.WriteLine("The input must be an integer. The value you entered was invalid.");
+                return -1;
             }
             return choice;
         }

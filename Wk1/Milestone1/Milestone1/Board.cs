@@ -25,9 +25,11 @@ namespace Milestone1
         {
             int squareSpace = (int) Math.Pow(Size, 2);
             int totalAllowedBombs = squareSpace * (Difficulty / 100);
+
             // Create 2D array to calculate which cells are live/dead
             Random rand = new Random();
             bool[] liveCells = new bool[squareSpace];
+
             // Setup and populate sorting set, used to randomize the liveCells array
             Double[] sortOrder = new Double[squareSpace];
             for (int idx = 0; idx < sortOrder.Length; idx++)
@@ -38,10 +40,9 @@ namespace Milestone1
                 // in accord with the difficulty setting
                 liveCells[idx] = idx < totalAllowedBombs;
             }
+
             // Randomize the liveCells placement through sortOrder
             Array.Sort(sortOrder, liveCells);
-
-            Console.Out.WriteLine(string.Format("Sorted live cell array: ${0}", liveCells.ToString()));
 
             // Now iter through 2D array and initialize all cells
             int liveCellSeedIdx = 0;
@@ -60,11 +61,6 @@ namespace Milestone1
 
         public void CalculateLiveNeighbors()
         {
-            // Create 2D array to calculate which cells are live/dead
-            //Random rand = new Random();
-            //bool[] liveCells = new bool[] {};
-
-            //int liveCellSeedIdx = 0;
             for (int row = 0; row < Grid.GetLength(0); row++)
             {
                 for (int col = 0; col < Grid.GetLength(1); col++)
@@ -84,7 +80,7 @@ namespace Milestone1
             }
 
             // test if any array index is going to cause out-of-bounds errs
-            // If it would, just add a default (!Live)
+            // If it would, just add a default (!Live && LiveNeighbors == 0)
             Cell def = new Cell(0, 0, false, false, 0);
             Cell left = (c.Column - 1 >= 0) ? Grid[c.Row, c.Column - 1] : def;
             Cell right = (c.Column + 1 < Size) ? Grid[c.Row, c.Column + 1] : def;
