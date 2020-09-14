@@ -1,0 +1,9 @@
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk2/ChessBoardConsoleApp/ChessBoardConsoleApp/bin/Debug/ChessBoardConsoleApp.exe
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk2/ChessBoardConsoleApp/ChessBoardConsoleApp/bin/Debug/ChessBoardConsoleApp.pdb
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk2/ChessBoardConsoleApp/ChessBoardConsoleApp/bin/Debug/ChessBoardModel.dll
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk2/ChessBoardConsoleApp/ChessBoardConsoleApp/bin/Debug/ChessBoardModel.pdb
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk2/ChessBoardConsoleApp/ChessBoardConsoleApp/obj/Debug/ChessBoardConsoleApp.csprojAssemblyReference.cache
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk2/ChessBoardConsoleApp/ChessBoardConsoleApp/obj/Debug/ChessBoardConsoleApp.csproj.CoreCompileInputs.cache
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk2/ChessBoardConsoleApp/ChessBoardConsoleApp/obj/Debug/ChessBoardConsoleApp.csproj.CopyComplete
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk2/ChessBoardConsoleApp/ChessBoardConsoleApp/obj/Debug/ChessBoardConsoleApp.exe
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk2/ChessBoardConsoleApp/ChessBoardConsoleApp/obj/Debug/ChessBoardConsoleApp.pdb

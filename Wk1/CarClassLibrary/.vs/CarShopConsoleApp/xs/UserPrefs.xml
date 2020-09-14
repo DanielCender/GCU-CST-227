@@ -1,14 +1,17 @@
 ﻿<Properties StartupConfiguration="{1E9D610A-F101-4B68-A5F2-0D27C1115A45}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CarShopConsoleApp/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CarClassLibrary/Car.cs">
     <Files>
       <File FileName="CarShopConsoleApp/Program.cs" Line="32" Column="39" />
+      <File FileName="CarClassLibrary/Car.cs" Line="41" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CarShopConsoleApp" expanded="True">
-            <Node name="CarClassLibrary" expanded="True" />
-            <Node name="CarShopConsoleApp" expanded="True" selected="True">
+            <Node name="CarClassLibrary" expanded="True">
+              <Node name="Car.cs" selected="True" />
+            </Node>
+            <Node name="CarShopConsoleApp" expanded="True">
               <Node name="References" expanded="True" />
             </Node>
           </Node>

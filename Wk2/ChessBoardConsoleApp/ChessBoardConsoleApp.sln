@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessBoardConsoleApp", "ChessBoardConsoleApp\ChessBoardConsoleApp.csproj", "{A5AD84BD-DB77-43F1-8152-28DEB4F162B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessBoardModel", "ChessBoardModel\ChessBoardModel.csproj", "{5E7BC348-10D0-4E49-A5EF-C8ECA331377A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5AD84BD-DB77-43F1-8152-28DEB4F162B3}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{A5AD84BD-DB77-43F1-8152-28DEB4F162B3}.Debug|anycpu.Build.0 = Debug|anycpu
+		{A5AD84BD-DB77-43F1-8152-28DEB4F162B3}.Release|anycpu.ActiveCfg = Release|anycpu
+		{A5AD84BD-DB77-43F1-8152-28DEB4F162B3}.Release|anycpu.Build.0 = Release|anycpu
+		{5E7BC348-10D0-4E49-A5EF-C8ECA331377A}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{5E7BC348-10D0-4E49-A5EF-C8ECA331377A}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{5E7BC348-10D0-4E49-A5EF-C8ECA331377A}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{5E7BC348-10D0-4E49-A5EF-C8ECA331377A}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

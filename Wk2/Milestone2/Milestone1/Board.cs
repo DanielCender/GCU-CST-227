@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Milestone1
+namespace Milestone2
 {
     public class Board
     {
@@ -10,13 +10,13 @@ namespace Milestone1
         public Board()
         {
             Size = 1;
-            Difficulty = 1;
+            Difficulty = 20; // 20% of board is bombs to start
             Grid = new Cell[Size, Size];
         }
         public Board(int size)
         {
             Size = size;
-            Difficulty = 12; // 12% of board is bombs to start
+            Difficulty = 20; // 20% of board is bombs to start
             Grid = new Cell[Size, Size];
             SetupLiveNeighbors();
         }
@@ -24,7 +24,7 @@ namespace Milestone1
         public void SetupLiveNeighbors()
         {
             int squareSpace = (int) Math.Pow(Size, 2);
-            int totalAllowedBombs = squareSpace * (Difficulty / 100);
+            int totalAllowedBombs = (int)Math.Ceiling((decimal) squareSpace * ((decimal) Difficulty / 100));
 
             // Create 2D array to calculate which cells are live/dead
             Random rand = new Random();

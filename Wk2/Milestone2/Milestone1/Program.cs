@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Milestone1
+namespace Milestone2
 {
     class MainClass
     {
@@ -8,29 +8,62 @@ namespace Milestone1
 
         public static void Main(string[] args)
         {
-            int response = 1;
+            int size = -1;
             Console.Out.WriteLine("Welcome to Minesweeper!");
-            while (response != 0)
+            while (size == -1)
             {
                 Console.Out.WriteLine("Please enter the desired size of the grid: ");
-                int size = getIntInput();
+                size = GetIntInput();
                 if (size == -1) continue; // check for invalid input
                 board = new Board(size);
 
                 // Play game
                 Console.Clear();
-                printBoard();
+            }
+
+            bool gameEnd = false;
+            while (!gameEnd)
+            {
+                Console.Out.WriteLine("Enter a Row Number");
+                int row = GetIntInput();
+                Console.Out.WriteLine("Enter a Column Number");
+                int col = GetIntInput();
+                // Check for invalid index values
+                if (row < 0 || col < 0 || row >= size || col >= size)
+                {
+                    Console.Out.WriteLine("A Row or Column number goes beyond the scope of the board. Please try again.");
+                    continue;
+                }
+
+                // Hitting a bomb triggers a game failure, obviously.
+                if (board.Grid[row, col].Live)
+                {
+                    Console.Out.WriteLine("**** You selected an armed tile! Game Over ****");
+                    gameEnd = true;
+                    continue;
+                }
+                else
+                {
+                    // Check if all the unarmed tiles have been revealed so far. Constitutes a won game.
+                    if(AllSafeTilesVisited())
+                    {
+                        Console.Out.WriteLine("**** You have visited all the safe tiles! Game Completed ****");
+                        gameEnd = true;
+                        continue;
+                    }
+                }
+                // If no game-changing states are found, set tile to visited and continue forward
+                board.Grid[row, col].Visited = true;
+
+                // Print the grid
+                PrintBoardDuringGame();
             }
         }
 
-        public static int getIntInput()
+        public static int GetIntInput()
         {
             int choice;
-            if (int.TryParse(Console.ReadLine(), out choice))
-            {
-                Console.Out.WriteLine(string.Format("Here's the input: ${0}", choice));
-            }
-            else
+            if (!int.TryParse(Console.ReadLine(), out choice))
             {
                 Console.Out.WriteLine("The input must be an integer. The value you entered was invalid.");
                 return -1;
@@ -38,7 +71,7 @@ namespace Milestone1
             return choice;
         }
 
-        public static void printBoard()
+        public static void PrintBoard()
         {
             Console.Out.WriteLine(string.Format("*** BOARD {0}x{0} ***", board.Size));
             int rows = board.Grid.GetLength(0);
@@ -50,7 +83,7 @@ namespace Milestone1
                 Console.Out.Write(string.Format(" {0} +", idx));
             }
             // NewLine to actual grid
-            printLineSeparator(cols);
+            PrintLineSeparator(cols);
             for (int row = 0; row < rows; row++)
             {
                 for (int col = 0; col < cols; col++)
@@ -69,11 +102,11 @@ namespace Milestone1
                     // If end of row, print the column number
                     if (col == cols - 1) Console.Out.Write(string.Format(": {0} ", row));
                 }
-                printLineSeparator(cols); // next row
+                PrintLineSeparator(cols); // next row
             }
         }
 
-        private static void printLineSeparator(int nbr)
+        private static void PrintLineSeparator(int nbr)
         {
             Console.Out.Write("\n+");
             for (int idx = 0; idx < nbr; idx++)
@@ -85,7 +118,6 @@ namespace Milestone1
 
         public static void PrintBoardDuringGame()
         {
-              Console.Out.WriteLine(string.Format("*** BOARD {0}x{0} ***", board.Size));
             int rows = board.Grid.GetLength(0);
             int cols = board.Grid.GetLength(1);
             // Print the top line of column headers
@@ -95,11 +127,13 @@ namespace Milestone1
                 Console.Out.Write(string.Format(" {0} +", idx));
             }
             // NewLine to actual grid
-            printLineSeparator(cols);
+            PrintLineSeparator(cols);
             for (int row = 0; row < rows; row++)
             {
                 for (int col = 0; col < cols; col++)
                 {
+                    // Print row col element
+                    Console.Out.Write(": ");
                     // Print row element
                     if (board.Grid[row, col].Visited)
                     {
@@ -120,8 +154,23 @@ namespace Milestone1
                     // If end of row, print the column number
                     if (col == cols - 1) Console.Out.Write(string.Format(": {0} ", row));
                 }
-                printLineSeparator(cols); // next row
+                PrintLineSeparator(cols); // next row
             }
+        }
+
+        public static bool AllSafeTilesVisited()
+        {
+            int rows = board.Grid.GetLength(0);
+            int cols = board.Grid.GetLength(1);
+            bool someUnvisited = false;
+            for (int row = 0; row < rows; row++)
+            {
+                for (int col = 0; col < cols; col++)
+                {
+                    if (!board.Grid[row, col].Visited && !board.Grid[row, col].Live) someUnvisited = true;
+                }
+            }
+            return !someUnvisited;
         }
     }
 }
