@@ -1,29 +1,28 @@
 ﻿<Properties StartupConfiguration="{A5AD84BD-DB77-43F1-8152-28DEB4F162B3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ChessBoardModel/Board.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChessBoardConsoleApp/Program.cs">
     <Files>
-      <File FileName="ChessBoardConsoleApp/Program.cs" Line="12" Column="1" />
-      <File FileName="ChessBoardModel/Cell.cs" />
-      <File FileName="ChessBoardModel/Board.cs" Line="76" Column="22" />
+      <File FileName="ChessBoardConsoleApp/Program.cs" Line="19" Column="41" />
+      <File FileName="ChessBoardModel/Cell.cs" Line="1" Column="1" />
+      <File FileName="ChessBoardModel/Board.cs" Line="28" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ChessBoardConsoleApp" expanded="True">
-            <Node name="ChessBoardConsoleApp" expanded="True" />
-            <Node name="ChessBoardModel" expanded="True">
-              <Node name="Board.cs" selected="True" />
+            <Node name="ChessBoardConsoleApp" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="ChessBoardModel" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ChessBoardConsoleApp FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ChessBoardConsoleApp PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ChessBoardModel FirstBuild="True" />
 </Properties>

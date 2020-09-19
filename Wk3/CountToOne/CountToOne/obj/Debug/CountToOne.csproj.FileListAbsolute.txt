@@ -1,0 +1,6 @@
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk3/CountToOne/CountToOne/bin/Debug/CountToOne.exe
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk3/CountToOne/CountToOne/bin/Debug/CountToOne.pdb
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk3/CountToOne/CountToOne/obj/Debug/CountToOne.csprojAssemblyReference.cache
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk3/CountToOne/CountToOne/obj/Debug/CountToOne.csproj.CoreCompileInputs.cache
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk3/CountToOne/CountToOne/obj/Debug/CountToOne.exe
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk3/CountToOne/CountToOne/obj/Debug/CountToOne.pdb
