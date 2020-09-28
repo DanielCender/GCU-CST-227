@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{A5AD84BD-DB77-43F1-8152-28DEB4F162B3}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ChessBoardConsoleApp/Program.cs">
     <Files>
-      <File FileName="ChessBoardConsoleApp/Program.cs" Line="19" Column="41" />
-      <File FileName="ChessBoardModel/Cell.cs" Line="1" Column="1" />
-      <File FileName="ChessBoardModel/Board.cs" Line="28" Column="43" />
+      <File FileName="ChessBoardConsoleApp/Program.cs" Line="6" Column="20" />
+      <File FileName="ChessBoardModel/Cell.cs" />
+      <File FileName="ChessBoardModel/Board.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

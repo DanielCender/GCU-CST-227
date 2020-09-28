@@ -1,0 +1,11 @@
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\HeroMaker\HeroMaker\HeroMaker\obj\Debug\HeroMaker.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\HeroMaker\HeroMaker\HeroMaker\obj\Debug\HeroMaker.HeroForm.resources
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\HeroMaker\HeroMaker\HeroMaker\obj\Debug\HeroMaker.Heroes.resources
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\HeroMaker\HeroMaker\HeroMaker\obj\Debug\HeroMaker.Properties.Resources.resources
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\HeroMaker\HeroMaker\HeroMaker\obj\Debug\HeroMaker.csproj.GenerateResource.cache
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\HeroMaker\HeroMaker\HeroMaker\obj\Debug\HeroMaker.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\HeroMaker\HeroMaker\HeroMaker\bin\Debug\HeroMaker.exe.config
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\HeroMaker\HeroMaker\HeroMaker\bin\Debug\HeroMaker.exe
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\HeroMaker\HeroMaker\HeroMaker\bin\Debug\HeroMaker.pdb
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\HeroMaker\HeroMaker\HeroMaker\obj\Debug\HeroMaker.exe
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\HeroMaker\HeroMaker\HeroMaker\obj\Debug\HeroMaker.pdb

@@ -1,0 +1,6 @@
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk3/Milestone/Milestone1/bin/Debug/Milestone1.exe
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk3/Milestone/Milestone1/bin/Debug/Milestone1.pdb
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk3/Milestone/Milestone1/obj/Debug/Milestone.csprojAssemblyReference.cache
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk3/Milestone/Milestone1/obj/Debug/Milestone.csproj.CoreCompileInputs.cache
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk3/Milestone/Milestone1/obj/Debug/Milestone1.exe
+/Users/danielcender/Documents/GCU/2020/CST-227/Wk3/Milestone/Milestone1/obj/Debug/Milestone1.pdb

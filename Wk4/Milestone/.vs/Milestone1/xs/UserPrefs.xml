@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{B38FC480-F378-4FFA-88A7-BE7CD9CF4F51}|Default">
+  <MonoDevelop.Ide.ItemProperties.Milestone1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Milestone1/Board.cs">
+    <Files>
+      <File FileName="Milestone1/Program.cs" Line="71" Column="18" />
+      <File FileName="Milestone1/Cell.cs" />
+      <File FileName="Milestone1/Board.cs" Line="74" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Milestone1" expanded="True" selected="True">
+            <Node name="Milestone1" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

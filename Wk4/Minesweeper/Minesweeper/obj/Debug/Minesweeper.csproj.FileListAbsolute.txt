@@ -1,0 +1,4 @@
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\Minesweeper\Minesweeper\obj\Debug\Minesweeper.Properties.Resources.resources
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.GenerateResource.cache
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk4\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.CoreCompileInputs.cache
