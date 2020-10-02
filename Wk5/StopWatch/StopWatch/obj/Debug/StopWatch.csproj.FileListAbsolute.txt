@@ -1,0 +1,10 @@
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk5\StopWatch\StopWatch\bin\Debug\StopWatch.exe.config
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk5\StopWatch\StopWatch\bin\Debug\StopWatch.exe
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk5\StopWatch\StopWatch\bin\Debug\StopWatch.pdb
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk5\StopWatch\StopWatch\obj\Debug\StopWatch.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk5\StopWatch\StopWatch\obj\Debug\StopWatch.Form1.resources
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk5\StopWatch\StopWatch\obj\Debug\StopWatch.Properties.Resources.resources
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk5\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.GenerateResource.cache
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk5\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk5\StopWatch\StopWatch\obj\Debug\StopWatch.exe
+\\Mac\Home\Documents\GCU\2020\CST-227\Wk5\StopWatch\StopWatch\obj\Debug\StopWatch.pdb

@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.ItemProperties.Milestone PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Milestone1/Program.cs">
     <Files>
-      <File FileName="Milestone1/Program.cs" Line="44" Column="18" />
-      <File FileName="Milestone1/Cell.cs" Line="1" Column="1" />
-      <File FileName="Milestone1/Board.cs" Line="118" Column="18" />
+      <File FileName="Milestone1/Program.cs" Line="122" Column="48" />
+      <File FileName="Milestone1/Cell.cs" Line="27" Column="10" />
+      <File FileName="Milestone1/Board.cs" Line="45" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
