@@ -23,6 +23,8 @@ namespace StopWatch
             nbrHitsLabel.Text = String.Format("Hits: {0}", nbrHits);
             nbrFalseHitsLabel.Text = String.Format("False Hits: {0}", formClicks);
             playAgainBtn.Visible = false;
+            // Start timer automatically
+            watch.Start();
         }
 
         public void disableButtons()
