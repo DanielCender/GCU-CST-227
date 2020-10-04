@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Milestone", "Milestone1\Milestone.csproj", "{B38FC480-F378-4FFA-88A7-BE7CD9CF4F51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinesweeperClassLib", "..\MinesweeperClassLib\MinesweeperClassLib\MinesweeperClassLib.csproj", "{014533C9-A13E-4C0D-ACB1-194322F650BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B38FC480-F378-4FFA-88A7-BE7CD9CF4F51}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{B38FC480-F378-4FFA-88A7-BE7CD9CF4F51}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{B38FC480-F378-4FFA-88A7-BE7CD9CF4F51}.Release|anycpu.ActiveCfg = Release|anycpu
+		{B38FC480-F378-4FFA-88A7-BE7CD9CF4F51}.Release|anycpu.Build.0 = Release|anycpu
+		{014533C9-A13E-4C0D-ACB1-194322F650BB}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{014533C9-A13E-4C0D-ACB1-194322F650BB}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{014533C9-A13E-4C0D-ACB1-194322F650BB}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{014533C9-A13E-4C0D-ACB1-194322F650BB}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69671C05-4BB7-43B6-9F4C-7745A3D3FF48}
+	EndGlobalSection
+EndGlobal

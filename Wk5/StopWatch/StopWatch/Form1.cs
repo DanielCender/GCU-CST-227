@@ -22,7 +22,9 @@ namespace StopWatch
             InitializeComponent();
             nbrHitsLabel.Text = String.Format("Hits: {0}", nbrHits);
             nbrFalseHitsLabel.Text = String.Format("False Hits: {0}", formClicks);
+            // Make double-sure the play-again btn is unvisible
             playAgainBtn.Visible = false;
+            //playAgainBtn.Visible = false;
             // Start timer automatically
             watch.Start();
         }
@@ -38,6 +40,20 @@ namespace StopWatch
             button1.Enabled = true;
             button2.Enabled = true;
             button3.Enabled = true;
+        }
+
+        public void checkForEndState()
+        {
+            if (formClicks >= 3)
+            {
+                watch.Stop();
+                button4.Visible = false;
+                button5.Visible = false;
+                // Set game state to "defeat"
+                label2.Text += " Game Over";
+                disableButtons();
+                playAgainBtn.Visible = true;
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -65,8 +81,8 @@ namespace StopWatch
             TimeSpan ts = watch.Elapsed;
 
             // Format and display the TimeSpan value in more readable format.
-            label1.Text = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-                ts.Hours, ts.Minutes, ts.Seconds,
+            label1.Text = String.Format("Timer (seconds): {0:00}.{1:00}",
+                ts.Seconds,
                 ts.Milliseconds / 10);
 
             // Move the button to a random place on the form
@@ -74,6 +90,7 @@ namespace StopWatch
            // Originally, button was only clickable once.
            //   Now, it can be clicked until a game-ending state is arrived
            button4.Location = new Point(rand.Next(60, 660), rand.Next(30, 490));
+           button5.Location = new Point(rand.Next(60, 660), rand.Next(30, 490));
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -85,6 +102,7 @@ namespace StopWatch
             {
                 watch.Stop();
                 button4.Visible = false;
+                button5.Visible = false;
                 label2.Text += " Game Won!";
                 disableButtons();
                 playAgainBtn.Visible = true;
@@ -98,15 +116,7 @@ namespace StopWatch
             // Add to illegal form clicks, counts towards game ending
             formClicks += 1;
             nbrFalseHitsLabel.Text = string.Format("False Hits: {0}", formClicks);
-            if (formClicks >= 3)
-            {
-                watch.Stop();
-                button4.Visible = false;
-                // Set game state to "defeat"
-                label2.Text += " Game Over";
-                disableButtons();
-                playAgainBtn.Visible = true;
-            }
+            checkForEndState();
         }
 
         private void playAgainBtn_Click(object sender, EventArgs e)
@@ -115,10 +125,18 @@ namespace StopWatch
             nbrFalseHitsLabel.Text = string.Format("False Hits: {0}", formClicks);
             nbrHits = 0;
             nbrHitsLabel.Text = String.Format("Hits: {0}", nbrHits);
-            label2.Text += "";
+            label2.Text = "Game State: ";
             enableButtons();
             playAgainBtn.Visible = true;
-            watch.Start();
+            watch.Restart();
+            playAgainBtn.Visible = false;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            formClicks += 1;
+            nbrFalseHitsLabel.Text = string.Format("False Hits: {0}", formClicks);
+            checkForEndState();
         }
     }
 }

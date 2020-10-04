@@ -40,6 +40,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.nbrFalseHitsLabel = new System.Windows.Forms.Label();
             this.playAgainBtn = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -94,7 +95,7 @@
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.button4.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(193, 193);
+            this.button4.Location = new System.Drawing.Point(93, 193);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(359, 163);
             this.button4.TabIndex = 6;
@@ -105,7 +106,7 @@
             // nbrHitsLabel
             // 
             this.nbrHitsLabel.AutoSize = true;
-            this.nbrHitsLabel.Location = new System.Drawing.Point(175, 21);
+            this.nbrHitsLabel.Location = new System.Drawing.Point(267, 21);
             this.nbrHitsLabel.Name = "nbrHitsLabel";
             this.nbrHitsLabel.Size = new System.Drawing.Size(133, 25);
             this.nbrHitsLabel.TabIndex = 7;
@@ -123,7 +124,7 @@
             // nbrFalseHitsLabel
             // 
             this.nbrFalseHitsLabel.AutoSize = true;
-            this.nbrFalseHitsLabel.Location = new System.Drawing.Point(382, 21);
+            this.nbrFalseHitsLabel.Location = new System.Drawing.Point(510, 21);
             this.nbrFalseHitsLabel.Name = "nbrFalseHitsLabel";
             this.nbrFalseHitsLabel.Size = new System.Drawing.Size(133, 25);
             this.nbrFalseHitsLabel.TabIndex = 9;
@@ -131,7 +132,7 @@
             // 
             // playAgainBtn
             // 
-            this.playAgainBtn.Location = new System.Drawing.Point(632, 12);
+            this.playAgainBtn.Location = new System.Drawing.Point(750, 12);
             this.playAgainBtn.Name = "playAgainBtn";
             this.playAgainBtn.Size = new System.Drawing.Size(207, 47);
             this.playAgainBtn.TabIndex = 10;
@@ -139,11 +140,27 @@
             this.playAgainBtn.UseVisualStyleBackColor = true;
             this.playAgainBtn.Click += new System.EventHandler(this.playAgainBtn_Click);
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button5.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.Location = new System.Drawing.Point(492, 193);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(359, 163);
+            this.button5.TabIndex = 11;
+            this.button5.Text = "FALSE TARGET";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(978, 578);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.playAgainBtn);
             this.Controls.Add(this.nbrFalseHitsLabel);
             this.Controls.Add(this.label2);
@@ -174,6 +191,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label nbrFalseHitsLabel;
         private System.Windows.Forms.Button playAgainBtn;
+        private System.Windows.Forms.Button button5;
     }
 }
 
