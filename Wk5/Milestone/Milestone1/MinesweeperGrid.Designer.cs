@@ -298,6 +298,7 @@
             this.button1.Tag = "0,0";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button2
             // 
@@ -309,6 +310,7 @@
             this.button2.Tag = "1,0";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button1_Click);
+            this.button2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button3
             // 
@@ -320,6 +322,7 @@
             this.button3.Tag = "2,0";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button1_Click);
+            this.button3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button4
             // 
@@ -331,6 +334,7 @@
             this.button4.Tag = "3,0";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button1_Click);
+            this.button4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button5
             // 
@@ -342,6 +346,7 @@
             this.button5.Tag = "4,0";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button1_Click);
+            this.button5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button6
             // 
@@ -353,6 +358,7 @@
             this.button6.Tag = "5,0";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button1_Click);
+            this.button6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button7
             // 
@@ -364,6 +370,7 @@
             this.button7.Tag = "6,0";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button1_Click);
+            this.button7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button8
             // 
@@ -375,6 +382,7 @@
             this.button8.Tag = "7,0";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button1_Click);
+            this.button8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button9
             // 
@@ -386,6 +394,7 @@
             this.button9.Tag = "15,0";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button1_Click);
+            this.button9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button10
             // 
@@ -397,6 +406,7 @@
             this.button10.Tag = "14,0";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button1_Click);
+            this.button10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button11
             // 
@@ -408,6 +418,7 @@
             this.button11.Tag = "13,0";
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button1_Click);
+            this.button11.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button12
             // 
@@ -419,6 +430,7 @@
             this.button12.Tag = "12,0";
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button1_Click);
+            this.button12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button13
             // 
@@ -430,6 +442,7 @@
             this.button13.Tag = "11,0";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button1_Click);
+            this.button13.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button14
             // 
@@ -441,6 +454,7 @@
             this.button14.Tag = "10,0";
             this.button14.UseVisualStyleBackColor = true;
             this.button14.Click += new System.EventHandler(this.button1_Click);
+            this.button14.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button15
             // 
@@ -452,6 +466,7 @@
             this.button15.Tag = "9,0";
             this.button15.UseVisualStyleBackColor = true;
             this.button15.Click += new System.EventHandler(this.button1_Click);
+            this.button15.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button16
             // 
@@ -463,6 +478,7 @@
             this.button16.Tag = "8,0";
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button1_Click);
+            this.button16.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button17
             // 
@@ -474,6 +490,7 @@
             this.button17.Tag = "15,1";
             this.button17.UseVisualStyleBackColor = true;
             this.button17.Click += new System.EventHandler(this.button1_Click);
+            this.button17.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button18
             // 
@@ -485,6 +502,7 @@
             this.button18.Tag = "14,1";
             this.button18.UseVisualStyleBackColor = true;
             this.button18.Click += new System.EventHandler(this.button1_Click);
+            this.button18.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button19
             // 
@@ -496,6 +514,7 @@
             this.button19.Tag = "13,1";
             this.button19.UseVisualStyleBackColor = true;
             this.button19.Click += new System.EventHandler(this.button1_Click);
+            this.button19.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button20
             // 
@@ -507,6 +526,7 @@
             this.button20.Tag = "12,1";
             this.button20.UseVisualStyleBackColor = true;
             this.button20.Click += new System.EventHandler(this.button1_Click);
+            this.button20.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button21
             // 
@@ -518,6 +538,7 @@
             this.button21.Tag = "11,1";
             this.button21.UseVisualStyleBackColor = true;
             this.button21.Click += new System.EventHandler(this.button1_Click);
+            this.button21.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button22
             // 
@@ -529,6 +550,7 @@
             this.button22.Tag = "10,1";
             this.button22.UseVisualStyleBackColor = true;
             this.button22.Click += new System.EventHandler(this.button1_Click);
+            this.button22.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button23
             // 
@@ -540,6 +562,7 @@
             this.button23.Tag = "9,1";
             this.button23.UseVisualStyleBackColor = true;
             this.button23.Click += new System.EventHandler(this.button1_Click);
+            this.button23.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button24
             // 
@@ -551,6 +574,7 @@
             this.button24.Tag = "8,1";
             this.button24.UseVisualStyleBackColor = true;
             this.button24.Click += new System.EventHandler(this.button1_Click);
+            this.button24.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button25
             // 
@@ -562,6 +586,7 @@
             this.button25.Tag = "7,1";
             this.button25.UseVisualStyleBackColor = true;
             this.button25.Click += new System.EventHandler(this.button1_Click);
+            this.button25.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button26
             // 
@@ -573,6 +598,7 @@
             this.button26.Tag = "6,1";
             this.button26.UseVisualStyleBackColor = true;
             this.button26.Click += new System.EventHandler(this.button1_Click);
+            this.button26.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button27
             // 
@@ -584,6 +610,7 @@
             this.button27.Tag = "5,1";
             this.button27.UseVisualStyleBackColor = true;
             this.button27.Click += new System.EventHandler(this.button1_Click);
+            this.button27.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button28
             // 
@@ -595,6 +622,7 @@
             this.button28.Tag = "4,1";
             this.button28.UseVisualStyleBackColor = true;
             this.button28.Click += new System.EventHandler(this.button1_Click);
+            this.button28.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button29
             // 
@@ -606,6 +634,7 @@
             this.button29.Tag = "3,1";
             this.button29.UseVisualStyleBackColor = true;
             this.button29.Click += new System.EventHandler(this.button1_Click);
+            this.button29.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button30
             // 
@@ -617,6 +646,7 @@
             this.button30.Tag = "2,1";
             this.button30.UseVisualStyleBackColor = true;
             this.button30.Click += new System.EventHandler(this.button1_Click);
+            this.button30.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button31
             // 
@@ -628,6 +658,7 @@
             this.button31.Tag = "1,1";
             this.button31.UseVisualStyleBackColor = true;
             this.button31.Click += new System.EventHandler(this.button1_Click);
+            this.button31.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button32
             // 
@@ -639,6 +670,7 @@
             this.button32.Tag = "0,1";
             this.button32.UseVisualStyleBackColor = true;
             this.button32.Click += new System.EventHandler(this.button1_Click);
+            this.button32.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button33
             // 
@@ -650,6 +682,7 @@
             this.button33.Tag = "15,2";
             this.button33.UseVisualStyleBackColor = true;
             this.button33.Click += new System.EventHandler(this.button1_Click);
+            this.button33.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button34
             // 
@@ -661,6 +694,7 @@
             this.button34.Tag = "14,2";
             this.button34.UseVisualStyleBackColor = true;
             this.button34.Click += new System.EventHandler(this.button1_Click);
+            this.button34.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button35
             // 
@@ -672,6 +706,7 @@
             this.button35.Tag = "13,2";
             this.button35.UseVisualStyleBackColor = true;
             this.button35.Click += new System.EventHandler(this.button1_Click);
+            this.button35.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button36
             // 
@@ -683,6 +718,7 @@
             this.button36.Tag = "12,2";
             this.button36.UseVisualStyleBackColor = true;
             this.button36.Click += new System.EventHandler(this.button1_Click);
+            this.button36.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button37
             // 
@@ -694,6 +730,7 @@
             this.button37.Tag = "11,2";
             this.button37.UseVisualStyleBackColor = true;
             this.button37.Click += new System.EventHandler(this.button1_Click);
+            this.button37.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button38
             // 
@@ -705,6 +742,7 @@
             this.button38.Tag = "10,2";
             this.button38.UseVisualStyleBackColor = true;
             this.button38.Click += new System.EventHandler(this.button1_Click);
+            this.button38.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button39
             // 
@@ -716,6 +754,7 @@
             this.button39.Tag = "9,2";
             this.button39.UseVisualStyleBackColor = true;
             this.button39.Click += new System.EventHandler(this.button1_Click);
+            this.button39.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button40
             // 
@@ -727,6 +766,7 @@
             this.button40.Tag = "8,2";
             this.button40.UseVisualStyleBackColor = true;
             this.button40.Click += new System.EventHandler(this.button1_Click);
+            this.button40.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button41
             // 
@@ -738,6 +778,7 @@
             this.button41.Tag = "7,2";
             this.button41.UseVisualStyleBackColor = true;
             this.button41.Click += new System.EventHandler(this.button1_Click);
+            this.button41.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button42
             // 
@@ -749,6 +790,7 @@
             this.button42.Tag = "6,2";
             this.button42.UseVisualStyleBackColor = true;
             this.button42.Click += new System.EventHandler(this.button1_Click);
+            this.button42.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button43
             // 
@@ -760,6 +802,7 @@
             this.button43.Tag = "5,2";
             this.button43.UseVisualStyleBackColor = true;
             this.button43.Click += new System.EventHandler(this.button1_Click);
+            this.button43.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button44
             // 
@@ -771,6 +814,7 @@
             this.button44.Tag = "4,2";
             this.button44.UseVisualStyleBackColor = true;
             this.button44.Click += new System.EventHandler(this.button1_Click);
+            this.button44.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button45
             // 
@@ -782,6 +826,7 @@
             this.button45.Tag = "3,2";
             this.button45.UseVisualStyleBackColor = true;
             this.button45.Click += new System.EventHandler(this.button1_Click);
+            this.button45.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button46
             // 
@@ -793,6 +838,7 @@
             this.button46.Tag = "2,2";
             this.button46.UseVisualStyleBackColor = true;
             this.button46.Click += new System.EventHandler(this.button1_Click);
+            this.button46.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button47
             // 
@@ -804,6 +850,7 @@
             this.button47.Tag = "1,2";
             this.button47.UseVisualStyleBackColor = true;
             this.button47.Click += new System.EventHandler(this.button1_Click);
+            this.button47.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button48
             // 
@@ -815,6 +862,7 @@
             this.button48.Tag = "0,2";
             this.button48.UseVisualStyleBackColor = true;
             this.button48.Click += new System.EventHandler(this.button1_Click);
+            this.button48.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button49
             // 
@@ -826,6 +874,7 @@
             this.button49.Tag = "15,3";
             this.button49.UseVisualStyleBackColor = true;
             this.button49.Click += new System.EventHandler(this.button1_Click);
+            this.button49.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button50
             // 
@@ -837,6 +886,7 @@
             this.button50.Tag = "14,3";
             this.button50.UseVisualStyleBackColor = true;
             this.button50.Click += new System.EventHandler(this.button1_Click);
+            this.button50.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button51
             // 
@@ -848,6 +898,7 @@
             this.button51.Tag = "13,3";
             this.button51.UseVisualStyleBackColor = true;
             this.button51.Click += new System.EventHandler(this.button1_Click);
+            this.button51.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button52
             // 
@@ -859,6 +910,7 @@
             this.button52.Tag = "12,3";
             this.button52.UseVisualStyleBackColor = true;
             this.button52.Click += new System.EventHandler(this.button1_Click);
+            this.button52.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button53
             // 
@@ -870,6 +922,7 @@
             this.button53.Tag = "11,3";
             this.button53.UseVisualStyleBackColor = true;
             this.button53.Click += new System.EventHandler(this.button1_Click);
+            this.button53.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button54
             // 
@@ -881,6 +934,7 @@
             this.button54.Tag = "10,3";
             this.button54.UseVisualStyleBackColor = true;
             this.button54.Click += new System.EventHandler(this.button1_Click);
+            this.button54.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button55
             // 
@@ -892,6 +946,7 @@
             this.button55.Tag = "9,3";
             this.button55.UseVisualStyleBackColor = true;
             this.button55.Click += new System.EventHandler(this.button1_Click);
+            this.button55.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button56
             // 
@@ -903,6 +958,7 @@
             this.button56.Tag = "8,3";
             this.button56.UseVisualStyleBackColor = true;
             this.button56.Click += new System.EventHandler(this.button1_Click);
+            this.button56.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button57
             // 
@@ -914,6 +970,7 @@
             this.button57.Tag = "7,3";
             this.button57.UseVisualStyleBackColor = true;
             this.button57.Click += new System.EventHandler(this.button1_Click);
+            this.button57.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button58
             // 
@@ -925,6 +982,7 @@
             this.button58.Tag = "6,3";
             this.button58.UseVisualStyleBackColor = true;
             this.button58.Click += new System.EventHandler(this.button1_Click);
+            this.button58.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button59
             // 
@@ -936,6 +994,7 @@
             this.button59.Tag = "5,3";
             this.button59.UseVisualStyleBackColor = true;
             this.button59.Click += new System.EventHandler(this.button1_Click);
+            this.button59.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button60
             // 
@@ -947,6 +1006,7 @@
             this.button60.Tag = "4,3";
             this.button60.UseVisualStyleBackColor = true;
             this.button60.Click += new System.EventHandler(this.button1_Click);
+            this.button60.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button61
             // 
@@ -958,6 +1018,7 @@
             this.button61.Tag = "3,3";
             this.button61.UseVisualStyleBackColor = true;
             this.button61.Click += new System.EventHandler(this.button1_Click);
+            this.button61.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button62
             // 
@@ -969,6 +1030,7 @@
             this.button62.Tag = "2,3";
             this.button62.UseVisualStyleBackColor = true;
             this.button62.Click += new System.EventHandler(this.button1_Click);
+            this.button62.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button63
             // 
@@ -980,6 +1042,7 @@
             this.button63.Tag = "1,3";
             this.button63.UseVisualStyleBackColor = true;
             this.button63.Click += new System.EventHandler(this.button1_Click);
+            this.button63.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button64
             // 
@@ -991,6 +1054,7 @@
             this.button64.Tag = "0,3";
             this.button64.UseVisualStyleBackColor = true;
             this.button64.Click += new System.EventHandler(this.button1_Click);
+            this.button64.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button65
             // 
@@ -1002,6 +1066,7 @@
             this.button65.Tag = "15,4";
             this.button65.UseVisualStyleBackColor = true;
             this.button65.Click += new System.EventHandler(this.button1_Click);
+            this.button65.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button66
             // 
@@ -1013,6 +1078,7 @@
             this.button66.Tag = "14,4";
             this.button66.UseVisualStyleBackColor = true;
             this.button66.Click += new System.EventHandler(this.button1_Click);
+            this.button66.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button67
             // 
@@ -1024,6 +1090,7 @@
             this.button67.Tag = "13,4";
             this.button67.UseVisualStyleBackColor = true;
             this.button67.Click += new System.EventHandler(this.button1_Click);
+            this.button67.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button68
             // 
@@ -1035,6 +1102,7 @@
             this.button68.Tag = "12,4";
             this.button68.UseVisualStyleBackColor = true;
             this.button68.Click += new System.EventHandler(this.button1_Click);
+            this.button68.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button69
             // 
@@ -1046,6 +1114,7 @@
             this.button69.Tag = "11,4";
             this.button69.UseVisualStyleBackColor = true;
             this.button69.Click += new System.EventHandler(this.button1_Click);
+            this.button69.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button70
             // 
@@ -1057,6 +1126,7 @@
             this.button70.Tag = "10,4";
             this.button70.UseVisualStyleBackColor = true;
             this.button70.Click += new System.EventHandler(this.button1_Click);
+            this.button70.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button71
             // 
@@ -1068,6 +1138,7 @@
             this.button71.Tag = "9,4";
             this.button71.UseVisualStyleBackColor = true;
             this.button71.Click += new System.EventHandler(this.button1_Click);
+            this.button71.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button72
             // 
@@ -1079,6 +1150,7 @@
             this.button72.Tag = "8,4";
             this.button72.UseVisualStyleBackColor = true;
             this.button72.Click += new System.EventHandler(this.button1_Click);
+            this.button72.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button73
             // 
@@ -1090,6 +1162,7 @@
             this.button73.Tag = "7,4";
             this.button73.UseVisualStyleBackColor = true;
             this.button73.Click += new System.EventHandler(this.button1_Click);
+            this.button73.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button74
             // 
@@ -1101,6 +1174,7 @@
             this.button74.Tag = "6,4";
             this.button74.UseVisualStyleBackColor = true;
             this.button74.Click += new System.EventHandler(this.button1_Click);
+            this.button74.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button75
             // 
@@ -1112,6 +1186,7 @@
             this.button75.Tag = "5,4";
             this.button75.UseVisualStyleBackColor = true;
             this.button75.Click += new System.EventHandler(this.button1_Click);
+            this.button75.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button76
             // 
@@ -1123,6 +1198,7 @@
             this.button76.Tag = "4,4";
             this.button76.UseVisualStyleBackColor = true;
             this.button76.Click += new System.EventHandler(this.button1_Click);
+            this.button76.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button77
             // 
@@ -1134,6 +1210,7 @@
             this.button77.Tag = "3,4";
             this.button77.UseVisualStyleBackColor = true;
             this.button77.Click += new System.EventHandler(this.button1_Click);
+            this.button77.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button78
             // 
@@ -1145,6 +1222,7 @@
             this.button78.Tag = "2,4";
             this.button78.UseVisualStyleBackColor = true;
             this.button78.Click += new System.EventHandler(this.button1_Click);
+            this.button78.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button79
             // 
@@ -1156,6 +1234,7 @@
             this.button79.Tag = "1,4";
             this.button79.UseVisualStyleBackColor = true;
             this.button79.Click += new System.EventHandler(this.button1_Click);
+            this.button79.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button80
             // 
@@ -1167,6 +1246,7 @@
             this.button80.Tag = "0,4";
             this.button80.UseVisualStyleBackColor = true;
             this.button80.Click += new System.EventHandler(this.button1_Click);
+            this.button80.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button81
             // 
@@ -1178,6 +1258,7 @@
             this.button81.Tag = "15,5";
             this.button81.UseVisualStyleBackColor = true;
             this.button81.Click += new System.EventHandler(this.button1_Click);
+            this.button81.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button82
             // 
@@ -1189,6 +1270,7 @@
             this.button82.Tag = "14,5";
             this.button82.UseVisualStyleBackColor = true;
             this.button82.Click += new System.EventHandler(this.button1_Click);
+            this.button82.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button83
             // 
@@ -1200,6 +1282,7 @@
             this.button83.Tag = "13,5";
             this.button83.UseVisualStyleBackColor = true;
             this.button83.Click += new System.EventHandler(this.button1_Click);
+            this.button83.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button84
             // 
@@ -1211,6 +1294,7 @@
             this.button84.Tag = "12,5";
             this.button84.UseVisualStyleBackColor = true;
             this.button84.Click += new System.EventHandler(this.button1_Click);
+            this.button84.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button85
             // 
@@ -1222,6 +1306,7 @@
             this.button85.Tag = "11,5";
             this.button85.UseVisualStyleBackColor = true;
             this.button85.Click += new System.EventHandler(this.button1_Click);
+            this.button85.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button86
             // 
@@ -1233,6 +1318,7 @@
             this.button86.Tag = "10,5";
             this.button86.UseVisualStyleBackColor = true;
             this.button86.Click += new System.EventHandler(this.button1_Click);
+            this.button86.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button87
             // 
@@ -1244,6 +1330,7 @@
             this.button87.Tag = "9,5";
             this.button87.UseVisualStyleBackColor = true;
             this.button87.Click += new System.EventHandler(this.button1_Click);
+            this.button87.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button88
             // 
@@ -1255,6 +1342,7 @@
             this.button88.Tag = "8,5";
             this.button88.UseVisualStyleBackColor = true;
             this.button88.Click += new System.EventHandler(this.button1_Click);
+            this.button88.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button89
             // 
@@ -1266,6 +1354,7 @@
             this.button89.Tag = "7,5";
             this.button89.UseVisualStyleBackColor = true;
             this.button89.Click += new System.EventHandler(this.button1_Click);
+            this.button89.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button90
             // 
@@ -1277,6 +1366,7 @@
             this.button90.Tag = "6,5";
             this.button90.UseVisualStyleBackColor = true;
             this.button90.Click += new System.EventHandler(this.button1_Click);
+            this.button90.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button91
             // 
@@ -1288,6 +1378,7 @@
             this.button91.Tag = "5,5";
             this.button91.UseVisualStyleBackColor = true;
             this.button91.Click += new System.EventHandler(this.button1_Click);
+            this.button91.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button92
             // 
@@ -1299,6 +1390,7 @@
             this.button92.Tag = "4,5";
             this.button92.UseVisualStyleBackColor = true;
             this.button92.Click += new System.EventHandler(this.button1_Click);
+            this.button92.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button93
             // 
@@ -1310,6 +1402,7 @@
             this.button93.Tag = "3,5";
             this.button93.UseVisualStyleBackColor = true;
             this.button93.Click += new System.EventHandler(this.button1_Click);
+            this.button93.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button94
             // 
@@ -1321,6 +1414,7 @@
             this.button94.Tag = "2,5";
             this.button94.UseVisualStyleBackColor = true;
             this.button94.Click += new System.EventHandler(this.button1_Click);
+            this.button94.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button95
             // 
@@ -1332,6 +1426,7 @@
             this.button95.Tag = "1,5";
             this.button95.UseVisualStyleBackColor = true;
             this.button95.Click += new System.EventHandler(this.button1_Click);
+            this.button95.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button96
             // 
@@ -1343,6 +1438,7 @@
             this.button96.Tag = "0,5";
             this.button96.UseVisualStyleBackColor = true;
             this.button96.Click += new System.EventHandler(this.button1_Click);
+            this.button96.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button97
             // 
@@ -1354,6 +1450,7 @@
             this.button97.Tag = "15,6";
             this.button97.UseVisualStyleBackColor = true;
             this.button97.Click += new System.EventHandler(this.button1_Click);
+            this.button97.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button98
             // 
@@ -1365,6 +1462,7 @@
             this.button98.Tag = "14,6";
             this.button98.UseVisualStyleBackColor = true;
             this.button98.Click += new System.EventHandler(this.button1_Click);
+            this.button98.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button99
             // 
@@ -1376,6 +1474,7 @@
             this.button99.Tag = "13,6";
             this.button99.UseVisualStyleBackColor = true;
             this.button99.Click += new System.EventHandler(this.button1_Click);
+            this.button99.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button100
             // 
@@ -1387,6 +1486,7 @@
             this.button100.Tag = "12,6";
             this.button100.UseVisualStyleBackColor = true;
             this.button100.Click += new System.EventHandler(this.button1_Click);
+            this.button100.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button101
             // 
@@ -1398,6 +1498,7 @@
             this.button101.Tag = "11,6";
             this.button101.UseVisualStyleBackColor = true;
             this.button101.Click += new System.EventHandler(this.button1_Click);
+            this.button101.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button102
             // 
@@ -1409,6 +1510,7 @@
             this.button102.Tag = "10,6";
             this.button102.UseVisualStyleBackColor = true;
             this.button102.Click += new System.EventHandler(this.button1_Click);
+            this.button102.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button103
             // 
@@ -1420,6 +1522,7 @@
             this.button103.Tag = "9,6";
             this.button103.UseVisualStyleBackColor = true;
             this.button103.Click += new System.EventHandler(this.button1_Click);
+            this.button103.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button104
             // 
@@ -1431,6 +1534,7 @@
             this.button104.Tag = "8,6";
             this.button104.UseVisualStyleBackColor = true;
             this.button104.Click += new System.EventHandler(this.button1_Click);
+            this.button104.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button105
             // 
@@ -1442,6 +1546,7 @@
             this.button105.Tag = "7,6";
             this.button105.UseVisualStyleBackColor = true;
             this.button105.Click += new System.EventHandler(this.button1_Click);
+            this.button105.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button106
             // 
@@ -1453,6 +1558,7 @@
             this.button106.Tag = "6,6";
             this.button106.UseVisualStyleBackColor = true;
             this.button106.Click += new System.EventHandler(this.button1_Click);
+            this.button106.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button107
             // 
@@ -1464,6 +1570,7 @@
             this.button107.Tag = "5,6";
             this.button107.UseVisualStyleBackColor = true;
             this.button107.Click += new System.EventHandler(this.button1_Click);
+            this.button107.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button108
             // 
@@ -1475,6 +1582,7 @@
             this.button108.Tag = "4,6";
             this.button108.UseVisualStyleBackColor = true;
             this.button108.Click += new System.EventHandler(this.button1_Click);
+            this.button108.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button109
             // 
@@ -1486,6 +1594,7 @@
             this.button109.Tag = "3,6";
             this.button109.UseVisualStyleBackColor = true;
             this.button109.Click += new System.EventHandler(this.button1_Click);
+            this.button109.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button110
             // 
@@ -1497,6 +1606,7 @@
             this.button110.Tag = "2,6";
             this.button110.UseVisualStyleBackColor = true;
             this.button110.Click += new System.EventHandler(this.button1_Click);
+            this.button110.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button111
             // 
@@ -1508,6 +1618,7 @@
             this.button111.Tag = "1,6";
             this.button111.UseVisualStyleBackColor = true;
             this.button111.Click += new System.EventHandler(this.button1_Click);
+            this.button111.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button112
             // 
@@ -1519,6 +1630,7 @@
             this.button112.Tag = "0,6";
             this.button112.UseVisualStyleBackColor = true;
             this.button112.Click += new System.EventHandler(this.button1_Click);
+            this.button112.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button113
             // 
@@ -1530,6 +1642,7 @@
             this.button113.Tag = "15,7";
             this.button113.UseVisualStyleBackColor = true;
             this.button113.Click += new System.EventHandler(this.button1_Click);
+            this.button113.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button114
             // 
@@ -1541,6 +1654,7 @@
             this.button114.Tag = "14,7";
             this.button114.UseVisualStyleBackColor = true;
             this.button114.Click += new System.EventHandler(this.button1_Click);
+            this.button114.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button115
             // 
@@ -1552,6 +1666,7 @@
             this.button115.Tag = "13,7";
             this.button115.UseVisualStyleBackColor = true;
             this.button115.Click += new System.EventHandler(this.button1_Click);
+            this.button115.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button116
             // 
@@ -1563,6 +1678,7 @@
             this.button116.Tag = "12,7";
             this.button116.UseVisualStyleBackColor = true;
             this.button116.Click += new System.EventHandler(this.button1_Click);
+            this.button116.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button117
             // 
@@ -1574,6 +1690,7 @@
             this.button117.Tag = "11,7";
             this.button117.UseVisualStyleBackColor = true;
             this.button117.Click += new System.EventHandler(this.button1_Click);
+            this.button117.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button118
             // 
@@ -1585,6 +1702,7 @@
             this.button118.Tag = "10,7";
             this.button118.UseVisualStyleBackColor = true;
             this.button118.Click += new System.EventHandler(this.button1_Click);
+            this.button118.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button119
             // 
@@ -1596,6 +1714,7 @@
             this.button119.Tag = "9,7";
             this.button119.UseVisualStyleBackColor = true;
             this.button119.Click += new System.EventHandler(this.button1_Click);
+            this.button119.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button120
             // 
@@ -1607,6 +1726,7 @@
             this.button120.Tag = "8,7";
             this.button120.UseVisualStyleBackColor = true;
             this.button120.Click += new System.EventHandler(this.button1_Click);
+            this.button120.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button121
             // 
@@ -1618,6 +1738,7 @@
             this.button121.Tag = "7,7";
             this.button121.UseVisualStyleBackColor = true;
             this.button121.Click += new System.EventHandler(this.button1_Click);
+            this.button121.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button122
             // 
@@ -1629,6 +1750,7 @@
             this.button122.Tag = "6,7";
             this.button122.UseVisualStyleBackColor = true;
             this.button122.Click += new System.EventHandler(this.button1_Click);
+            this.button122.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button123
             // 
@@ -1640,6 +1762,7 @@
             this.button123.Tag = "5,7";
             this.button123.UseVisualStyleBackColor = true;
             this.button123.Click += new System.EventHandler(this.button1_Click);
+            this.button123.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button124
             // 
@@ -1651,6 +1774,7 @@
             this.button124.Tag = "4,7";
             this.button124.UseVisualStyleBackColor = true;
             this.button124.Click += new System.EventHandler(this.button1_Click);
+            this.button124.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button125
             // 
@@ -1662,6 +1786,7 @@
             this.button125.Tag = "3,7";
             this.button125.UseVisualStyleBackColor = true;
             this.button125.Click += new System.EventHandler(this.button1_Click);
+            this.button125.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button126
             // 
@@ -1673,6 +1798,7 @@
             this.button126.Tag = "2,7";
             this.button126.UseVisualStyleBackColor = true;
             this.button126.Click += new System.EventHandler(this.button1_Click);
+            this.button126.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button127
             // 
@@ -1684,6 +1810,7 @@
             this.button127.Tag = "1,7";
             this.button127.UseVisualStyleBackColor = true;
             this.button127.Click += new System.EventHandler(this.button1_Click);
+            this.button127.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button128
             // 
@@ -1695,6 +1822,7 @@
             this.button128.Tag = "0,7";
             this.button128.UseVisualStyleBackColor = true;
             this.button128.Click += new System.EventHandler(this.button1_Click);
+            this.button128.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button129
             // 
@@ -1706,6 +1834,7 @@
             this.button129.Tag = "15,8";
             this.button129.UseVisualStyleBackColor = true;
             this.button129.Click += new System.EventHandler(this.button1_Click);
+            this.button129.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button130
             // 
@@ -1717,6 +1846,7 @@
             this.button130.Tag = "14,8";
             this.button130.UseVisualStyleBackColor = true;
             this.button130.Click += new System.EventHandler(this.button1_Click);
+            this.button130.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button131
             // 
@@ -1728,6 +1858,7 @@
             this.button131.Tag = "13,8";
             this.button131.UseVisualStyleBackColor = true;
             this.button131.Click += new System.EventHandler(this.button1_Click);
+            this.button131.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button132
             // 
@@ -1739,6 +1870,7 @@
             this.button132.Tag = "12,8";
             this.button132.UseVisualStyleBackColor = true;
             this.button132.Click += new System.EventHandler(this.button1_Click);
+            this.button132.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button133
             // 
@@ -1750,6 +1882,7 @@
             this.button133.Tag = "11,8";
             this.button133.UseVisualStyleBackColor = true;
             this.button133.Click += new System.EventHandler(this.button1_Click);
+            this.button133.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button134
             // 
@@ -1761,6 +1894,7 @@
             this.button134.Tag = "10,8";
             this.button134.UseVisualStyleBackColor = true;
             this.button134.Click += new System.EventHandler(this.button1_Click);
+            this.button134.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button135
             // 
@@ -1772,6 +1906,7 @@
             this.button135.Tag = "9,8";
             this.button135.UseVisualStyleBackColor = true;
             this.button135.Click += new System.EventHandler(this.button1_Click);
+            this.button135.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button136
             // 
@@ -1783,6 +1918,7 @@
             this.button136.Tag = "8,8";
             this.button136.UseVisualStyleBackColor = true;
             this.button136.Click += new System.EventHandler(this.button1_Click);
+            this.button136.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button137
             // 
@@ -1794,6 +1930,7 @@
             this.button137.Tag = "7,8";
             this.button137.UseVisualStyleBackColor = true;
             this.button137.Click += new System.EventHandler(this.button1_Click);
+            this.button137.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button138
             // 
@@ -1805,6 +1942,7 @@
             this.button138.Tag = "6,8";
             this.button138.UseVisualStyleBackColor = true;
             this.button138.Click += new System.EventHandler(this.button1_Click);
+            this.button138.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button139
             // 
@@ -1816,6 +1954,7 @@
             this.button139.Tag = "5,8";
             this.button139.UseVisualStyleBackColor = true;
             this.button139.Click += new System.EventHandler(this.button1_Click);
+            this.button139.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button140
             // 
@@ -1827,6 +1966,7 @@
             this.button140.Tag = "4,8";
             this.button140.UseVisualStyleBackColor = true;
             this.button140.Click += new System.EventHandler(this.button1_Click);
+            this.button140.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button141
             // 
@@ -1838,6 +1978,7 @@
             this.button141.Tag = "3,8";
             this.button141.UseVisualStyleBackColor = true;
             this.button141.Click += new System.EventHandler(this.button1_Click);
+            this.button141.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button142
             // 
@@ -1849,6 +1990,7 @@
             this.button142.Tag = "2,8";
             this.button142.UseVisualStyleBackColor = true;
             this.button142.Click += new System.EventHandler(this.button1_Click);
+            this.button142.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button143
             // 
@@ -1860,6 +2002,7 @@
             this.button143.Tag = "1,8";
             this.button143.UseVisualStyleBackColor = true;
             this.button143.Click += new System.EventHandler(this.button1_Click);
+            this.button143.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button144
             // 
@@ -1871,6 +2014,7 @@
             this.button144.Tag = "0,8";
             this.button144.UseVisualStyleBackColor = true;
             this.button144.Click += new System.EventHandler(this.button1_Click);
+            this.button144.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button145
             // 
@@ -1882,6 +2026,7 @@
             this.button145.Tag = "15,9";
             this.button145.UseVisualStyleBackColor = true;
             this.button145.Click += new System.EventHandler(this.button1_Click);
+            this.button145.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button146
             // 
@@ -1893,6 +2038,7 @@
             this.button146.Tag = "14,9";
             this.button146.UseVisualStyleBackColor = true;
             this.button146.Click += new System.EventHandler(this.button1_Click);
+            this.button146.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button147
             // 
@@ -1904,6 +2050,7 @@
             this.button147.Tag = "13,9";
             this.button147.UseVisualStyleBackColor = true;
             this.button147.Click += new System.EventHandler(this.button1_Click);
+            this.button147.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button148
             // 
@@ -1915,6 +2062,7 @@
             this.button148.Tag = "12,9";
             this.button148.UseVisualStyleBackColor = true;
             this.button148.Click += new System.EventHandler(this.button1_Click);
+            this.button148.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button149
             // 
@@ -1926,6 +2074,7 @@
             this.button149.Tag = "11,9";
             this.button149.UseVisualStyleBackColor = true;
             this.button149.Click += new System.EventHandler(this.button1_Click);
+            this.button149.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button150
             // 
@@ -1937,6 +2086,7 @@
             this.button150.Tag = "10,9";
             this.button150.UseVisualStyleBackColor = true;
             this.button150.Click += new System.EventHandler(this.button1_Click);
+            this.button150.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button151
             // 
@@ -1948,6 +2098,7 @@
             this.button151.Tag = "9,9";
             this.button151.UseVisualStyleBackColor = true;
             this.button151.Click += new System.EventHandler(this.button1_Click);
+            this.button151.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button152
             // 
@@ -1959,6 +2110,7 @@
             this.button152.Tag = "8,9";
             this.button152.UseVisualStyleBackColor = true;
             this.button152.Click += new System.EventHandler(this.button1_Click);
+            this.button152.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button153
             // 
@@ -1970,6 +2122,7 @@
             this.button153.Tag = "7,9";
             this.button153.UseVisualStyleBackColor = true;
             this.button153.Click += new System.EventHandler(this.button1_Click);
+            this.button153.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button154
             // 
@@ -1981,6 +2134,7 @@
             this.button154.Tag = "6,9";
             this.button154.UseVisualStyleBackColor = true;
             this.button154.Click += new System.EventHandler(this.button1_Click);
+            this.button154.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button155
             // 
@@ -1992,6 +2146,7 @@
             this.button155.Tag = "5,9";
             this.button155.UseVisualStyleBackColor = true;
             this.button155.Click += new System.EventHandler(this.button1_Click);
+            this.button155.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button156
             // 
@@ -2003,6 +2158,7 @@
             this.button156.Tag = "4,9";
             this.button156.UseVisualStyleBackColor = true;
             this.button156.Click += new System.EventHandler(this.button1_Click);
+            this.button156.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button157
             // 
@@ -2014,6 +2170,7 @@
             this.button157.Tag = "3,9";
             this.button157.UseVisualStyleBackColor = true;
             this.button157.Click += new System.EventHandler(this.button1_Click);
+            this.button157.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button158
             // 
@@ -2025,6 +2182,7 @@
             this.button158.Tag = "2,9";
             this.button158.UseVisualStyleBackColor = true;
             this.button158.Click += new System.EventHandler(this.button1_Click);
+            this.button158.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button159
             // 
@@ -2036,6 +2194,7 @@
             this.button159.Tag = "1,9";
             this.button159.UseVisualStyleBackColor = true;
             this.button159.Click += new System.EventHandler(this.button1_Click);
+            this.button159.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button160
             // 
@@ -2047,6 +2206,7 @@
             this.button160.Tag = "0,9";
             this.button160.UseVisualStyleBackColor = true;
             this.button160.Click += new System.EventHandler(this.button1_Click);
+            this.button160.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button161
             // 
@@ -2058,6 +2218,7 @@
             this.button161.Tag = "15,10";
             this.button161.UseVisualStyleBackColor = true;
             this.button161.Click += new System.EventHandler(this.button1_Click);
+            this.button161.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button162
             // 
@@ -2069,6 +2230,7 @@
             this.button162.Tag = "14,10";
             this.button162.UseVisualStyleBackColor = true;
             this.button162.Click += new System.EventHandler(this.button1_Click);
+            this.button162.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button163
             // 
@@ -2080,6 +2242,7 @@
             this.button163.Tag = "13,10";
             this.button163.UseVisualStyleBackColor = true;
             this.button163.Click += new System.EventHandler(this.button1_Click);
+            this.button163.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button164
             // 
@@ -2091,6 +2254,7 @@
             this.button164.Tag = "12,10";
             this.button164.UseVisualStyleBackColor = true;
             this.button164.Click += new System.EventHandler(this.button1_Click);
+            this.button164.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button165
             // 
@@ -2102,6 +2266,7 @@
             this.button165.Tag = "11,10";
             this.button165.UseVisualStyleBackColor = true;
             this.button165.Click += new System.EventHandler(this.button1_Click);
+            this.button165.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button166
             // 
@@ -2113,6 +2278,7 @@
             this.button166.Tag = "10,10";
             this.button166.UseVisualStyleBackColor = true;
             this.button166.Click += new System.EventHandler(this.button1_Click);
+            this.button166.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button167
             // 
@@ -2124,6 +2290,7 @@
             this.button167.Tag = "9,10";
             this.button167.UseVisualStyleBackColor = true;
             this.button167.Click += new System.EventHandler(this.button1_Click);
+            this.button167.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button168
             // 
@@ -2135,6 +2302,7 @@
             this.button168.Tag = "8,10";
             this.button168.UseVisualStyleBackColor = true;
             this.button168.Click += new System.EventHandler(this.button1_Click);
+            this.button168.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button169
             // 
@@ -2146,6 +2314,7 @@
             this.button169.Tag = "7,10";
             this.button169.UseVisualStyleBackColor = true;
             this.button169.Click += new System.EventHandler(this.button1_Click);
+            this.button169.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button170
             // 
@@ -2157,6 +2326,7 @@
             this.button170.Tag = "6,10";
             this.button170.UseVisualStyleBackColor = true;
             this.button170.Click += new System.EventHandler(this.button1_Click);
+            this.button170.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button171
             // 
@@ -2168,6 +2338,7 @@
             this.button171.Tag = "5,10";
             this.button171.UseVisualStyleBackColor = true;
             this.button171.Click += new System.EventHandler(this.button1_Click);
+            this.button171.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button172
             // 
@@ -2179,6 +2350,7 @@
             this.button172.Tag = "4,10";
             this.button172.UseVisualStyleBackColor = true;
             this.button172.Click += new System.EventHandler(this.button1_Click);
+            this.button172.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button173
             // 
@@ -2190,6 +2362,7 @@
             this.button173.Tag = "3,10";
             this.button173.UseVisualStyleBackColor = true;
             this.button173.Click += new System.EventHandler(this.button1_Click);
+            this.button173.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button174
             // 
@@ -2201,6 +2374,7 @@
             this.button174.Tag = "2,10";
             this.button174.UseVisualStyleBackColor = true;
             this.button174.Click += new System.EventHandler(this.button1_Click);
+            this.button174.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button175
             // 
@@ -2212,6 +2386,7 @@
             this.button175.Tag = "1,10";
             this.button175.UseVisualStyleBackColor = true;
             this.button175.Click += new System.EventHandler(this.button1_Click);
+            this.button175.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button176
             // 
@@ -2223,6 +2398,7 @@
             this.button176.Tag = "0,10";
             this.button176.UseVisualStyleBackColor = true;
             this.button176.Click += new System.EventHandler(this.button1_Click);
+            this.button176.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button177
             // 
@@ -2234,6 +2410,7 @@
             this.button177.Tag = "15,11";
             this.button177.UseVisualStyleBackColor = true;
             this.button177.Click += new System.EventHandler(this.button1_Click);
+            this.button177.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button178
             // 
@@ -2245,6 +2422,7 @@
             this.button178.Tag = "14,11";
             this.button178.UseVisualStyleBackColor = true;
             this.button178.Click += new System.EventHandler(this.button1_Click);
+            this.button178.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button179
             // 
@@ -2256,6 +2434,7 @@
             this.button179.Tag = "13,11";
             this.button179.UseVisualStyleBackColor = true;
             this.button179.Click += new System.EventHandler(this.button1_Click);
+            this.button179.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button180
             // 
@@ -2267,6 +2446,7 @@
             this.button180.Tag = "12,11";
             this.button180.UseVisualStyleBackColor = true;
             this.button180.Click += new System.EventHandler(this.button1_Click);
+            this.button180.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button181
             // 
@@ -2278,6 +2458,7 @@
             this.button181.Tag = "11,11";
             this.button181.UseVisualStyleBackColor = true;
             this.button181.Click += new System.EventHandler(this.button1_Click);
+            this.button181.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button182
             // 
@@ -2289,6 +2470,7 @@
             this.button182.Tag = "10,11";
             this.button182.UseVisualStyleBackColor = true;
             this.button182.Click += new System.EventHandler(this.button1_Click);
+            this.button182.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button183
             // 
@@ -2300,6 +2482,7 @@
             this.button183.Tag = "9,11";
             this.button183.UseVisualStyleBackColor = true;
             this.button183.Click += new System.EventHandler(this.button1_Click);
+            this.button183.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button184
             // 
@@ -2311,6 +2494,7 @@
             this.button184.Tag = "8,11";
             this.button184.UseVisualStyleBackColor = true;
             this.button184.Click += new System.EventHandler(this.button1_Click);
+            this.button184.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button185
             // 
@@ -2322,6 +2506,7 @@
             this.button185.Tag = "7,11";
             this.button185.UseVisualStyleBackColor = true;
             this.button185.Click += new System.EventHandler(this.button1_Click);
+            this.button185.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button186
             // 
@@ -2333,6 +2518,7 @@
             this.button186.Tag = "6,11";
             this.button186.UseVisualStyleBackColor = true;
             this.button186.Click += new System.EventHandler(this.button1_Click);
+            this.button186.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button187
             // 
@@ -2344,6 +2530,7 @@
             this.button187.Tag = "5,11";
             this.button187.UseVisualStyleBackColor = true;
             this.button187.Click += new System.EventHandler(this.button1_Click);
+            this.button187.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button188
             // 
@@ -2355,6 +2542,7 @@
             this.button188.Tag = "4,11";
             this.button188.UseVisualStyleBackColor = true;
             this.button188.Click += new System.EventHandler(this.button1_Click);
+            this.button188.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button189
             // 
@@ -2366,6 +2554,7 @@
             this.button189.Tag = "3,11";
             this.button189.UseVisualStyleBackColor = true;
             this.button189.Click += new System.EventHandler(this.button1_Click);
+            this.button189.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button190
             // 
@@ -2377,6 +2566,7 @@
             this.button190.Tag = "2,11";
             this.button190.UseVisualStyleBackColor = true;
             this.button190.Click += new System.EventHandler(this.button1_Click);
+            this.button190.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button191
             // 
@@ -2388,6 +2578,7 @@
             this.button191.Tag = "1,11";
             this.button191.UseVisualStyleBackColor = true;
             this.button191.Click += new System.EventHandler(this.button1_Click);
+            this.button191.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button192
             // 
@@ -2399,6 +2590,7 @@
             this.button192.Tag = "0,11";
             this.button192.UseVisualStyleBackColor = true;
             this.button192.Click += new System.EventHandler(this.button1_Click);
+            this.button192.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button193
             // 
@@ -2410,6 +2602,7 @@
             this.button193.Tag = "15,12";
             this.button193.UseVisualStyleBackColor = true;
             this.button193.Click += new System.EventHandler(this.button1_Click);
+            this.button193.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button194
             // 
@@ -2421,6 +2614,7 @@
             this.button194.Tag = "14,12";
             this.button194.UseVisualStyleBackColor = true;
             this.button194.Click += new System.EventHandler(this.button1_Click);
+            this.button194.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button195
             // 
@@ -2432,6 +2626,7 @@
             this.button195.Tag = "13,12";
             this.button195.UseVisualStyleBackColor = true;
             this.button195.Click += new System.EventHandler(this.button1_Click);
+            this.button195.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button196
             // 
@@ -2443,6 +2638,7 @@
             this.button196.Tag = "12,12";
             this.button196.UseVisualStyleBackColor = true;
             this.button196.Click += new System.EventHandler(this.button1_Click);
+            this.button196.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button197
             // 
@@ -2454,6 +2650,7 @@
             this.button197.Tag = "11,12";
             this.button197.UseVisualStyleBackColor = true;
             this.button197.Click += new System.EventHandler(this.button1_Click);
+            this.button197.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button198
             // 
@@ -2465,6 +2662,7 @@
             this.button198.Tag = "10,12";
             this.button198.UseVisualStyleBackColor = true;
             this.button198.Click += new System.EventHandler(this.button1_Click);
+            this.button198.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button199
             // 
@@ -2476,6 +2674,7 @@
             this.button199.Tag = "9,12";
             this.button199.UseVisualStyleBackColor = true;
             this.button199.Click += new System.EventHandler(this.button1_Click);
+            this.button199.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button200
             // 
@@ -2487,6 +2686,7 @@
             this.button200.Tag = "8,12";
             this.button200.UseVisualStyleBackColor = true;
             this.button200.Click += new System.EventHandler(this.button1_Click);
+            this.button200.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button201
             // 
@@ -2498,6 +2698,7 @@
             this.button201.Tag = "7,12";
             this.button201.UseVisualStyleBackColor = true;
             this.button201.Click += new System.EventHandler(this.button1_Click);
+            this.button201.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button202
             // 
@@ -2509,6 +2710,7 @@
             this.button202.Tag = "6,12";
             this.button202.UseVisualStyleBackColor = true;
             this.button202.Click += new System.EventHandler(this.button1_Click);
+            this.button202.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button203
             // 
@@ -2520,6 +2722,7 @@
             this.button203.Tag = "5,12";
             this.button203.UseVisualStyleBackColor = true;
             this.button203.Click += new System.EventHandler(this.button1_Click);
+            this.button203.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button204
             // 
@@ -2531,6 +2734,7 @@
             this.button204.Tag = "4,12";
             this.button204.UseVisualStyleBackColor = true;
             this.button204.Click += new System.EventHandler(this.button1_Click);
+            this.button204.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button205
             // 
@@ -2542,6 +2746,7 @@
             this.button205.Tag = "3,12";
             this.button205.UseVisualStyleBackColor = true;
             this.button205.Click += new System.EventHandler(this.button1_Click);
+            this.button205.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button206
             // 
@@ -2553,6 +2758,7 @@
             this.button206.Tag = "2,12";
             this.button206.UseVisualStyleBackColor = true;
             this.button206.Click += new System.EventHandler(this.button1_Click);
+            this.button206.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button207
             // 
@@ -2564,6 +2770,7 @@
             this.button207.Tag = "1,12";
             this.button207.UseVisualStyleBackColor = true;
             this.button207.Click += new System.EventHandler(this.button1_Click);
+            this.button207.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button208
             // 
@@ -2575,6 +2782,7 @@
             this.button208.Tag = "0,12";
             this.button208.UseVisualStyleBackColor = true;
             this.button208.Click += new System.EventHandler(this.button1_Click);
+            this.button208.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button209
             // 
@@ -2586,6 +2794,7 @@
             this.button209.Tag = "15,13";
             this.button209.UseVisualStyleBackColor = true;
             this.button209.Click += new System.EventHandler(this.button1_Click);
+            this.button209.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button210
             // 
@@ -2597,6 +2806,7 @@
             this.button210.Tag = "14,13";
             this.button210.UseVisualStyleBackColor = true;
             this.button210.Click += new System.EventHandler(this.button1_Click);
+            this.button210.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button211
             // 
@@ -2608,6 +2818,7 @@
             this.button211.Tag = "13,13";
             this.button211.UseVisualStyleBackColor = true;
             this.button211.Click += new System.EventHandler(this.button1_Click);
+            this.button211.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button212
             // 
@@ -2619,6 +2830,7 @@
             this.button212.Tag = "12,13";
             this.button212.UseVisualStyleBackColor = true;
             this.button212.Click += new System.EventHandler(this.button1_Click);
+            this.button212.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button213
             // 
@@ -2630,6 +2842,7 @@
             this.button213.Tag = "11,13";
             this.button213.UseVisualStyleBackColor = true;
             this.button213.Click += new System.EventHandler(this.button1_Click);
+            this.button213.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button214
             // 
@@ -2641,6 +2854,7 @@
             this.button214.Tag = "10,13";
             this.button214.UseVisualStyleBackColor = true;
             this.button214.Click += new System.EventHandler(this.button1_Click);
+            this.button214.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button215
             // 
@@ -2652,6 +2866,7 @@
             this.button215.Tag = "9,13";
             this.button215.UseVisualStyleBackColor = true;
             this.button215.Click += new System.EventHandler(this.button1_Click);
+            this.button215.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button216
             // 
@@ -2663,6 +2878,7 @@
             this.button216.Tag = "8,13";
             this.button216.UseVisualStyleBackColor = true;
             this.button216.Click += new System.EventHandler(this.button1_Click);
+            this.button216.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button217
             // 
@@ -2674,6 +2890,7 @@
             this.button217.Tag = "7,13";
             this.button217.UseVisualStyleBackColor = true;
             this.button217.Click += new System.EventHandler(this.button1_Click);
+            this.button217.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button218
             // 
@@ -2685,6 +2902,7 @@
             this.button218.Tag = "6,13";
             this.button218.UseVisualStyleBackColor = true;
             this.button218.Click += new System.EventHandler(this.button1_Click);
+            this.button218.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button219
             // 
@@ -2696,6 +2914,7 @@
             this.button219.Tag = "5,13";
             this.button219.UseVisualStyleBackColor = true;
             this.button219.Click += new System.EventHandler(this.button1_Click);
+            this.button219.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button220
             // 
@@ -2707,6 +2926,7 @@
             this.button220.Tag = "4,13";
             this.button220.UseVisualStyleBackColor = true;
             this.button220.Click += new System.EventHandler(this.button1_Click);
+            this.button220.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button221
             // 
@@ -2718,6 +2938,7 @@
             this.button221.Tag = "3,13";
             this.button221.UseVisualStyleBackColor = true;
             this.button221.Click += new System.EventHandler(this.button1_Click);
+            this.button221.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button222
             // 
@@ -2729,6 +2950,7 @@
             this.button222.Tag = "2,13";
             this.button222.UseVisualStyleBackColor = true;
             this.button222.Click += new System.EventHandler(this.button1_Click);
+            this.button222.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button223
             // 
@@ -2740,6 +2962,7 @@
             this.button223.Tag = "1,13";
             this.button223.UseVisualStyleBackColor = true;
             this.button223.Click += new System.EventHandler(this.button1_Click);
+            this.button223.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button224
             // 
@@ -2751,6 +2974,7 @@
             this.button224.Tag = "0,13";
             this.button224.UseVisualStyleBackColor = true;
             this.button224.Click += new System.EventHandler(this.button1_Click);
+            this.button224.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button225
             // 
@@ -2762,6 +2986,7 @@
             this.button225.Tag = "15,14";
             this.button225.UseVisualStyleBackColor = true;
             this.button225.Click += new System.EventHandler(this.button1_Click);
+            this.button225.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button226
             // 
@@ -2773,6 +2998,7 @@
             this.button226.Tag = "14,14";
             this.button226.UseVisualStyleBackColor = true;
             this.button226.Click += new System.EventHandler(this.button1_Click);
+            this.button226.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button227
             // 
@@ -2784,6 +3010,7 @@
             this.button227.Tag = "13,14";
             this.button227.UseVisualStyleBackColor = true;
             this.button227.Click += new System.EventHandler(this.button1_Click);
+            this.button227.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button228
             // 
@@ -2795,6 +3022,7 @@
             this.button228.Tag = "12,14";
             this.button228.UseVisualStyleBackColor = true;
             this.button228.Click += new System.EventHandler(this.button1_Click);
+            this.button228.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button229
             // 
@@ -2806,6 +3034,7 @@
             this.button229.Tag = "11,14";
             this.button229.UseVisualStyleBackColor = true;
             this.button229.Click += new System.EventHandler(this.button1_Click);
+            this.button229.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button230
             // 
@@ -2817,6 +3046,7 @@
             this.button230.Tag = "10,14";
             this.button230.UseVisualStyleBackColor = true;
             this.button230.Click += new System.EventHandler(this.button1_Click);
+            this.button230.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button231
             // 
@@ -2828,6 +3058,7 @@
             this.button231.Tag = "9,14";
             this.button231.UseVisualStyleBackColor = true;
             this.button231.Click += new System.EventHandler(this.button1_Click);
+            this.button231.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button232
             // 
@@ -2839,6 +3070,7 @@
             this.button232.Tag = "8,14";
             this.button232.UseVisualStyleBackColor = true;
             this.button232.Click += new System.EventHandler(this.button1_Click);
+            this.button232.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button233
             // 
@@ -2850,6 +3082,7 @@
             this.button233.Tag = "7,14";
             this.button233.UseVisualStyleBackColor = true;
             this.button233.Click += new System.EventHandler(this.button1_Click);
+            this.button233.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button234
             // 
@@ -2861,6 +3094,7 @@
             this.button234.Tag = "6,14";
             this.button234.UseVisualStyleBackColor = true;
             this.button234.Click += new System.EventHandler(this.button1_Click);
+            this.button234.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button235
             // 
@@ -2872,6 +3106,7 @@
             this.button235.Tag = "5,14";
             this.button235.UseVisualStyleBackColor = true;
             this.button235.Click += new System.EventHandler(this.button1_Click);
+            this.button235.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button236
             // 
@@ -2883,6 +3118,7 @@
             this.button236.Tag = "4,14";
             this.button236.UseVisualStyleBackColor = true;
             this.button236.Click += new System.EventHandler(this.button1_Click);
+            this.button236.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button237
             // 
@@ -2894,6 +3130,7 @@
             this.button237.Tag = "3,14";
             this.button237.UseVisualStyleBackColor = true;
             this.button237.Click += new System.EventHandler(this.button1_Click);
+            this.button237.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button238
             // 
@@ -2905,6 +3142,7 @@
             this.button238.Tag = "2,14";
             this.button238.UseVisualStyleBackColor = true;
             this.button238.Click += new System.EventHandler(this.button1_Click);
+            this.button238.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button239
             // 
@@ -2916,6 +3154,7 @@
             this.button239.Tag = "1,14";
             this.button239.UseVisualStyleBackColor = true;
             this.button239.Click += new System.EventHandler(this.button1_Click);
+            this.button239.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button240
             // 
@@ -2927,6 +3166,7 @@
             this.button240.Tag = "0,14";
             this.button240.UseVisualStyleBackColor = true;
             this.button240.Click += new System.EventHandler(this.button1_Click);
+            this.button240.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button241
             // 
@@ -2938,6 +3178,7 @@
             this.button241.Tag = "15,15";
             this.button241.UseVisualStyleBackColor = true;
             this.button241.Click += new System.EventHandler(this.button1_Click);
+            this.button241.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button242
             // 
@@ -2949,6 +3190,7 @@
             this.button242.Tag = "14,15";
             this.button242.UseVisualStyleBackColor = true;
             this.button242.Click += new System.EventHandler(this.button1_Click);
+            this.button242.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button243
             // 
@@ -2960,6 +3202,7 @@
             this.button243.Tag = "13,15";
             this.button243.UseVisualStyleBackColor = true;
             this.button243.Click += new System.EventHandler(this.button1_Click);
+            this.button243.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button244
             // 
@@ -2971,6 +3214,7 @@
             this.button244.Tag = "12,15";
             this.button244.UseVisualStyleBackColor = true;
             this.button244.Click += new System.EventHandler(this.button1_Click);
+            this.button244.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button245
             // 
@@ -2982,6 +3226,7 @@
             this.button245.Tag = "11,15";
             this.button245.UseVisualStyleBackColor = true;
             this.button245.Click += new System.EventHandler(this.button1_Click);
+            this.button245.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button246
             // 
@@ -2993,6 +3238,7 @@
             this.button246.Tag = "10,15";
             this.button246.UseVisualStyleBackColor = true;
             this.button246.Click += new System.EventHandler(this.button1_Click);
+            this.button246.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button247
             // 
@@ -3004,6 +3250,7 @@
             this.button247.Tag = "9,15";
             this.button247.UseVisualStyleBackColor = true;
             this.button247.Click += new System.EventHandler(this.button1_Click);
+            this.button247.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button248
             // 
@@ -3015,6 +3262,7 @@
             this.button248.Tag = "8,15";
             this.button248.UseVisualStyleBackColor = true;
             this.button248.Click += new System.EventHandler(this.button1_Click);
+            this.button248.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button249
             // 
@@ -3026,6 +3274,7 @@
             this.button249.Tag = "7,15";
             this.button249.UseVisualStyleBackColor = true;
             this.button249.Click += new System.EventHandler(this.button1_Click);
+            this.button249.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button250
             // 
@@ -3037,6 +3286,7 @@
             this.button250.Tag = "6,15";
             this.button250.UseVisualStyleBackColor = true;
             this.button250.Click += new System.EventHandler(this.button1_Click);
+            this.button250.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button251
             // 
@@ -3048,6 +3298,7 @@
             this.button251.Tag = "5,15";
             this.button251.UseVisualStyleBackColor = true;
             this.button251.Click += new System.EventHandler(this.button1_Click);
+            this.button251.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button252
             // 
@@ -3059,6 +3310,7 @@
             this.button252.Tag = "4,15";
             this.button252.UseVisualStyleBackColor = true;
             this.button252.Click += new System.EventHandler(this.button1_Click);
+            this.button252.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button253
             // 
@@ -3070,6 +3322,7 @@
             this.button253.Tag = "3,15";
             this.button253.UseVisualStyleBackColor = true;
             this.button253.Click += new System.EventHandler(this.button1_Click);
+            this.button253.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button254
             // 
@@ -3081,6 +3334,7 @@
             this.button254.Tag = "2,15";
             this.button254.UseVisualStyleBackColor = true;
             this.button254.Click += new System.EventHandler(this.button1_Click);
+            this.button254.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button255
             // 
@@ -3092,6 +3346,7 @@
             this.button255.Tag = "1,15";
             this.button255.UseVisualStyleBackColor = true;
             this.button255.Click += new System.EventHandler(this.button1_Click);
+            this.button255.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // button256
             // 
@@ -3103,6 +3358,7 @@
             this.button256.Tag = "0,15";
             this.button256.UseVisualStyleBackColor = true;
             this.button256.Click += new System.EventHandler(this.button1_Click);
+            this.button256.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown_handler);
             // 
             // timer1
             // 

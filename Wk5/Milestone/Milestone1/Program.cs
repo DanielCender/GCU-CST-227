@@ -9,8 +9,6 @@ namespace Milestone
 {
     class MainClass
     {
-        public static Board board;
-
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -79,152 +77,152 @@ namespace Milestone
     //    }
     //}
 
-    public static int GetIntInput()
-        {
-            int choice;
-            if (!int.TryParse(Console.ReadLine(), out choice))
-            {
-                Console.Out.WriteLine("The input must be an integer. The value you entered was invalid.");
-                return -1;
-            }
-            return choice;
-        }
+    //public static int GetIntInput()
+    //    {
+    //        int choice;
+    //        if (!int.TryParse(Console.ReadLine(), out choice))
+    //        {
+    //            Console.Out.WriteLine("The input must be an integer. The value you entered was invalid.");
+    //            return -1;
+    //        }
+    //        return choice;
+    //    }
 
-        public static void PrintBoard()
-        {
-            Console.Out.WriteLine(string.Format("*** BOARD {0}x{0} ***", board.Size));
-            int rows = board.Grid.GetLength(0);
-            int cols = board.Grid.GetLength(1);
-            // Print the top line of column headers
-            for (int idx = 0; idx < cols; idx++)
-            {
-                if (idx == 0) Console.Out.Write("+");
-                Console.Out.Write(string.Format(" {0} +", idx));
-            }
-            // NewLine to actual grid
-            PrintLineSeparator(cols);
-            for (int row = 0; row < rows; row++)
-            {
-                for (int col = 0; col < cols; col++)
-                {
-                    // Print row col element
-                    Console.Out.Write(": ");
-                    if (board.Grid[row, col].Visited)
-                    {
-                        Console.Out.Write(board.Grid[row, col].LiveNeighbors);
-                    }
-                    else
-                    {
-                        Console.Out.Write("*");
-                    }
-                    Console.Out.Write(" ");
-                    // If end of row, print the column number
-                    if (col == cols - 1) Console.Out.Write(string.Format(": {0} ", row));
-                }
-                PrintLineSeparator(cols); // next row
-            }
-        }
+        // public static void PrintBoard()
+        //{
+        //    Console.Out.WriteLine(string.Format("*** BOARD {0}x{0} ***", board.Size));
+        //    int rows = board.Grid.GetLength(0);
+        //    int cols = board.Grid.GetLength(1);
+        //    // Print the top line of column headers
+        //    for (int idx = 0; idx < cols; idx++)
+        //    {
+        //        if (idx == 0) Console.Out.Write("+");
+        //        Console.Out.Write(string.Format(" {0} +", idx));
+        //    }
+        //    // NewLine to actual grid
+        //    PrintLineSeparator(cols);
+        //    for (int row = 0; row < rows; row++)
+        //    {
+        //        for (int col = 0; col < cols; col++)
+        //        {
+        //            // Print row col element
+        //            Console.Out.Write(": ");
+        //            if (board.Grid[row, col].Visited)
+        //            {
+        //                Console.Out.Write(board.Grid[row, col].LiveNeighbors);
+        //            }
+        //            else
+        //            {
+        //                Console.Out.Write("*");
+        //            }
+        //            Console.Out.Write(" ");
+        //            // If end of row, print the column number
+        //            if (col == cols - 1) Console.Out.Write(string.Format(": {0} ", row));
+        //        }
+        //        PrintLineSeparator(cols); // next row
+        //    }
+        //}
 
-        private static void PrintLineSeparator(int nbr)
-        {
-            Console.Out.Write("\n+");
-            for (int idx = 0; idx < nbr; idx++)
-            {
-                Console.Out.Write("---+");
-            }
-            Console.Out.Write("\n");
-        }
+        //private static void PrintLineSeparator(int nbr)
+        //{
+        //    Console.Out.Write("\n+");
+        //    for (int idx = 0; idx < nbr; idx++)
+        //    {
+        //        Console.Out.Write("---+");
+        //    }
+        //    Console.Out.Write("\n");
+        //}
 
-        public static void PrintBoardDuringGame()
-        {
-            int rows = board.Grid.GetLength(0);
-            int cols = board.Grid.GetLength(1);
-            // Print the top line of column headers
-            for (int idx = 0; idx < cols; idx++)
-            {
-                if (idx == 0) Console.Out.Write("+");
-                Console.Out.Write(string.Format(" {0} +", idx));
-            }
-            // NewLine to actual grid
-            PrintLineSeparator(cols);
-            for (int row = 0; row < rows; row++)
-            {
-                for (int col = 0; col < cols; col++)
-                {
-                    // Print row col element
-                    Console.Out.Write(": ");
-                    // Print row element
-                    if (board.Grid[row, col].Visited)
-                    {
-                        if (board.Grid[row, col].LiveNeighbors > 0)
-                        {
-                            Console.Out.Write(board.Grid[row, col].LiveNeighbors);
-                        }
-                        else
-                        {
-                            Console.Out.Write("~");
-                        }
-                    }
-                    else
-                    {
-                        Console.Out.Write("?");
-                    }
-                    Console.Out.Write(" ");
-                    // If end of row, print the column number
-                    if (col == cols - 1) Console.Out.Write(string.Format(": {0} ", row));
-                }
-                PrintLineSeparator(cols); // next row
-            }
-        }
+        //public static void PrintBoardDuringGame()
+        //{
+        //    int rows = board.Grid.GetLength(0);
+        //    int cols = board.Grid.GetLength(1);
+        //    // Print the top line of column headers
+        //    for (int idx = 0; idx < cols; idx++)
+        //    {
+        //        if (idx == 0) Console.Out.Write("+");
+        //        Console.Out.Write(string.Format(" {0} +", idx));
+        //    }
+        //    // NewLine to actual grid
+        //    PrintLineSeparator(cols);
+        //    for (int row = 0; row < rows; row++)
+        //    {
+        //        for (int col = 0; col < cols; col++)
+        //        {
+        //            // Print row col element
+        //            Console.Out.Write(": ");
+        //            // Print row element
+        //            if (board.Grid[row, col].Visited)
+        //            {
+        //                if (board.Grid[row, col].LiveNeighbors > 0)
+        //                {
+        //                    Console.Out.Write(board.Grid[row, col].LiveNeighbors);
+        //                }
+        //                else
+        //                {
+        //                    Console.Out.Write("~");
+        //                }
+        //            }
+        //            else
+        //            {
+        //                Console.Out.Write("?");
+        //            }
+        //            Console.Out.Write(" ");
+        //            // If end of row, print the column number
+        //            if (col == cols - 1) Console.Out.Write(string.Format(": {0} ", row));
+        //        }
+        //        PrintLineSeparator(cols); // next row
+        //    }
+        //}
 
-        public static void PrintBoardDuringTest()
-        {
-            int rows = board.Grid.GetLength(0);
-            int cols = board.Grid.GetLength(1);
-            // Print the top line of column headers
-            for (int idx = 0; idx < cols; idx++)
-            {
-                if (idx == 0) Console.Out.Write("+");
-                Console.Out.Write(string.Format(" {0} +", idx));
-            }
-            // NewLine to actual grid
-            PrintLineSeparator(cols);
-            for (int row = 0; row < rows; row++)
-            {
-                for (int col = 0; col < cols; col++)
-                {
-                    // Print row col element
-                    Console.Out.Write(": ");
-                    // Print row element
-                        if (board.Grid[row, col].LiveNeighbors > 0)
-                        {
-                            Console.Out.Write(board.Grid[row, col].Live ? "*" : string.Format("{0}", board.Grid[row, col].LiveNeighbors));
-                        }
-                        else
-                        {
-                            Console.Out.Write("~");
-                        }
-                    Console.Out.Write(" ");
-                    // If end of row, print the column number
-                    if (col == cols - 1) Console.Out.Write(string.Format(": {0} ", row));
-                }
-                PrintLineSeparator(cols); // next row
-            }
-        }
+        //public static void PrintBoardDuringTest()
+        //{
+        //    int rows = board.Grid.GetLength(0);
+        //    int cols = board.Grid.GetLength(1);
+        //    // Print the top line of column headers
+        //    for (int idx = 0; idx < cols; idx++)
+        //    {
+        //        if (idx == 0) Console.Out.Write("+");
+        //        Console.Out.Write(string.Format(" {0} +", idx));
+        //    }
+        //    // NewLine to actual grid
+        //    PrintLineSeparator(cols);
+        //    for (int row = 0; row < rows; row++)
+        //    {
+        //        for (int col = 0; col < cols; col++)
+        //        {
+        //            // Print row col element
+        //            Console.Out.Write(": ");
+        //            // Print row element
+        //                if (board.Grid[row, col].LiveNeighbors > 0)
+        //                {
+        //                    Console.Out.Write(board.Grid[row, col].Live ? "*" : string.Format("{0}", board.Grid[row, col].LiveNeighbors));
+        //                }
+        //                else
+        //                {
+        //                    Console.Out.Write("~");
+        //                }
+        //            Console.Out.Write(" ");
+        //            // If end of row, print the column number
+        //            if (col == cols - 1) Console.Out.Write(string.Format(": {0} ", row));
+        //        }
+        //        PrintLineSeparator(cols); // next row
+        //    }
+        //}
 
-        public static bool AllSafeTilesVisited()
-        {
-            int rows = board.Grid.GetLength(0);
-            int cols = board.Grid.GetLength(1);
-            bool someUnvisited = false;
-            for (int row = 0; row < rows; row++)
-            {
-                for (int col = 0; col < cols; col++)
-                {
-                    if (!board.Grid[row, col].Visited && !board.Grid[row, col].Live) someUnvisited = true;
-                }
-            }
-            return !someUnvisited;
-        }
+        //public static bool AllSafeTilesVisited()
+        //{
+        //    int rows = board.Grid.GetLength(0);
+        //    int cols = board.Grid.GetLength(1);
+        //    bool someUnvisited = false;
+        //    for (int row = 0; row < rows; row++)
+        //    {
+        //        for (int col = 0; col < cols; col++)
+        //        {
+        //            if (!board.Grid[row, col].Visited && !board.Grid[row, col].Live) someUnvisited = true;
+        //        }
+        //    }
+        //    return !someUnvisited;
+        //}
     }
 }

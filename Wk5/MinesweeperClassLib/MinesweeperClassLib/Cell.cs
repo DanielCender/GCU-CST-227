@@ -17,6 +17,7 @@ namespace MinesweeperClassLib
             Row = -1;
             Visited = false;
             Live = false;
+            Flagged = false;
             LiveNeighbors = 0;
         }
         public Cell(int col, int row, bool visited, bool live, int liveNeighbors)
@@ -25,6 +26,7 @@ namespace MinesweeperClassLib
             Row = row;
             Visited = visited;
             Live = live;
+            Flagged = false;
             LiveNeighbors = liveNeighbors;
         }
     }

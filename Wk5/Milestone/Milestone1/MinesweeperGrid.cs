@@ -42,8 +42,12 @@ namespace Milestone1
             for (int r = 0; r < boardBtns.GetLength(0); r++)
             {
                 for (int c = 0; c < boardBtns.GetLength(1); c++)
-                {
-                    if (board.Grid[r, c].LiveNeighbors > 0 && board.Grid[r,c].Visited) boardBtns[r, c].Text = string.Format("{0}", board.Grid[r, c].LiveNeighbors);
+                {// Set all non-live, visited, non-flagged cells to
+                    // background color if they have > 0 live
+                    //  neighbors
+                    // Otherwise just set the text value
+                    if (board.Grid[r, c].Visited && board.Grid[r, c].LiveNeighbors > 0) boardBtns[r, c].Text = string.Format("{0}", board.Grid[r, c].LiveNeighbors);
+                    else if (board.Grid[r, c].Visited) boardBtns[r, c].BackColor = Color.FromArgb(167, 188, 216);
                 }
             }
         }
@@ -57,17 +61,21 @@ namespace Milestone1
             int[] location = { row, col };
             return location;
         }
+        private void button1_Click(object sender, EventArgs e) {
+            // Just keeping this here cause I need to figure out how to remove
+            // 99+ event handler references non-manually :|
+        }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void mouseDown_handler(object sender, MouseEventArgs e)
         {
             var button = (Button)sender;
             int[] coordinates = getButtonTagCoordinates(button);
             int row = coordinates[0];
             int col = coordinates[1];
 
-            MouseEventArgs me = (MouseEventArgs)e;
             // If the user is right-clicking, then just add/remove flag
-            if (me.Button == MouseButtons.Right)
+            Console.WriteLine("User clicked with {0}", e.Button);
+            if (e.Button == MouseButtons.Right)
             {
                 if (board.Grid[row, col].Flagged)
                 {
@@ -94,16 +102,20 @@ namespace Milestone1
             // Check if user hit a bomb
             if (board.Grid[row, col].Live)
             {
+                // Set clicked bomb's background to red
+                boardBtns[row, col].BackColor = Color.FromArgb(235, 51, 35);
+                boardBtns[row, col].Text = null;
                 // Show all bombs
                 for (int r = 0; r < board.Grid.GetLength(0); r++)
                 {
                     for (int c = 0; c < board.Grid.GetLength(1); c++)
                     {
-                        if (board.Grid[row, col].Live)
+                        if (board.Grid[r, c].Live)
                         {
+                            Console.Out.WriteLine("Another live one");
                             // Set button image to bomb
-                            boardBtns[row, col].Image = Properties.Resources.bomb; //Image.FromFile("/Users/danielcender/Documents/GCU/2020/CST-227/Wk5/Milestone/Milestone1/Images/bomb");
-                            boardBtns[row, col].ImageAlign = ContentAlignment.MiddleCenter;
+                            boardBtns[r, c].Image = Properties.Resources.bomb; //Image.FromFile("/Users/danielcender/Documents/GCU/2020/CST-227/Wk5/Milestone/Milestone1/Images/bomb");
+                            boardBtns[r, c].ImageAlign = ContentAlignment.MiddleCenter;
                         }
                     }
                 }
@@ -116,7 +128,7 @@ namespace Milestone1
                     }
                 }
                 timeElapsed = getCurrentWatchTime();
-                watch.Stop();
+                watch.Reset();
                 // Show Game Over Message
                 Results nextForm = new Results("GAME OVER", timeElapsed);
                 nextForm.Show();
@@ -127,7 +139,7 @@ namespace Milestone1
                 {
                     // End game and see results
                     timeElapsed = getCurrentWatchTime();
-                    watch.Stop();
+                    watch.Reset();
                     Results nextForm = new Results("GAME WON", timeElapsed);
                     
                     nextForm.FormClosed += new System.Windows.Forms.FormClosedEventHandler(specialFormCloseEventHandler);
@@ -135,21 +147,18 @@ namespace Milestone1
                 } else
                 {
                     board.floodFill(row, col);
-                    // Re-display all button Text properties
-                    setButtonTexts();
+                    
+                            // Re-display all button Text properties
+                            setButtonTexts();
                 }
             }
-
-            button.Text = string.Format("{0}", coordinates[0]);
-            Console.Out.WriteLine("Clicked: {0} {1}", coordinates[0], coordinates[1]);
-            // Finish game logic here
         }
 
         // This handler makes sure when the Results page closes, this frame gets hidden too
         private void specialFormCloseEventHandler(object sender, FormClosedEventArgs e)
         {
             Console.Out.WriteLine("Firing the close event handler....");
-            this.Hide();
+            this.Close();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
