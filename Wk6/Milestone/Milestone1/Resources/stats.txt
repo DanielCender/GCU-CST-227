@@ -1,0 +1,12 @@
+Dan,20
+Steve,30
+Angie,50
+Zed,2
+Sophie,50
+Elisia,100
+Angie2,50
+Zed54,2
+Sophie1,50
+Elisia23,100
+Josiah,20
+Jordan,3

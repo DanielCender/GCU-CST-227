@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFileDataAccessDemo", "TextFileDataAccessDemo\TextFileDataAccessDemo.csproj", "{3EE330B3-490D-43DB-8688-E817D8172AED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EE330B3-490D-43DB-8688-E817D8172AED}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{3EE330B3-490D-43DB-8688-E817D8172AED}.Debug|anycpu.Build.0 = Debug|anycpu
+		{3EE330B3-490D-43DB-8688-E817D8172AED}.Release|anycpu.ActiveCfg = Release|anycpu
+		{3EE330B3-490D-43DB-8688-E817D8172AED}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
